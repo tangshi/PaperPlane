@@ -1,0 +1,1187 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09191E1F18137238000EFE7D /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09191E1E18137238000EFE7D /* Carbon.framework */; };
+		09191E2118137239000EFE7D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09191E2018137239000EFE7D /* Cocoa.framework */; };
+		09191E2318137239000EFE7D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09191E2218137239000EFE7D /* IOKit.framework */; };
+		09191E2518137239000EFE7D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09191E2418137239000EFE7D /* OpenGL.framework */; };
+		09191E2718137239000EFE7D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09191E2618137239000EFE7D /* QuartzCore.framework */; };
+		09191E2E18137239000EFE7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09191E2C18137239000EFE7D /* InfoPlist.strings */; };
+		09191E3018137239000EFE7D /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 09191E2F18137239000EFE7D /* main.mm */; };
+		09191E3418137239000EFE7D /* OgreDemoApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 09191E3318137239000EFE7D /* OgreDemoApp.mm */; };
+		09191E3718137239000EFE7D /* OgreFramework.mm in Sources */ = {isa = PBXBuildFile; fileRef = 09191E3618137239000EFE7D /* OgreFramework.mm */; };
+		09191E4B18137239000EFE7D /* ogre.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 09191E4A18137239000EFE7D /* ogre.cfg */; };
+		09191E4D18137239000EFE7D /* plugins.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 09191E4C18137239000EFE7D /* plugins.cfg */; };
+		09191E4F18137239000EFE7D /* resources.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 09191E4E18137239000EFE7D /* resources.cfg */; };
+		091928731813965F000EFE7D /* SdkTrays.zip in Resources */ = {isa = PBXBuildFile; fileRef = 091925C61813965E000EFE7D /* SdkTrays.zip */; };
+		092195341814F4880034D831 /* PaperPlane.mm in Sources */ = {isa = PBXBuildFile; fileRef = 092195321814F4880034D831 /* PaperPlane.mm */; };
+		092843BD1A050878003C64C7 /* OgreFinal-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 092843BC1A050878003C64C7 /* OgreFinal-Info.plist */; };
+		0961B5221816311700E45F7E /* bgAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0961B5201816311700E45F7E /* bgAudio.mp3 */; };
+		0966227118280130007AE454 /* Buildings_5.scene in Resources */ = {isa = PBXBuildFile; fileRef = 0966227018280130007AE454 /* Buildings_5.scene */; };
+		097613EB181E76E40091512A /* OgreMaxModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 097613D1181E76E40091512A /* OgreMaxModel.cpp */; };
+		097613EC181E76E40091512A /* OgreMaxScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 097613D5181E76E40091512A /* OgreMaxScene.cpp */; };
+		097613ED181E76E40091512A /* OgreMaxUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 097613D8181E76E40091512A /* OgreMaxUtilities.cpp */; };
+		097613EE181E76E40091512A /* ProgressCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 097613DA181E76E40091512A /* ProgressCalculator.cpp */; };
+		097613F1181E76E40091512A /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 097613DF181E76E40091512A /* tinystr.cpp */; };
+		097613F2181E76E40091512A /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 097613E1181E76E40091512A /* tinyxml.cpp */; };
+		097613F3181E76E40091512A /* tinyxml2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 097613E3181E76E40091512A /* tinyxml2.cpp */; };
+		097613F4181E76E40091512A /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 097613E5181E76E40091512A /* tinyxmlerror.cpp */; };
+		097613F5181E76E40091512A /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 097613E6181E76E40091512A /* tinyxmlparser.cpp */; };
+		097613F6181E76E40091512A /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 097613E7181E76E40091512A /* Version.cpp */; };
+		09761591181E7F1F0091512A /* windBlowAudio.wav in Resources */ = {isa = PBXBuildFile; fileRef = 09761590181E7F1F0091512A /* windBlowAudio.wav */; };
+		09C2E4841827CAA900B4E3BD /* Buildingsbuildings_1pCube29.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3E01827CAA700B4E3BD /* Buildingsbuildings_1pCube29.mesh */; };
+		09C2E4851827CAA900B4E3BD /* Buildingsbuildings_1pCube46.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3E11827CAA700B4E3BD /* Buildingsbuildings_1pCube46.mesh */; };
+		09C2E4861827CAA900B4E3BD /* Buildingsbuildings_1pCube47.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3E21827CAA700B4E3BD /* Buildingsbuildings_1pCube47.mesh */; };
+		09C2E4871827CAA900B4E3BD /* Buildingsbuildings_1pCube48.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3E31827CAA700B4E3BD /* Buildingsbuildings_1pCube48.mesh */; };
+		09C2E4881827CAA900B4E3BD /* Buildingsbuildings_1pCube49.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3E41827CAA700B4E3BD /* Buildingsbuildings_1pCube49.mesh */; };
+		09C2E4891827CAA900B4E3BD /* Buildingsbuildings_1pCube50.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3E51827CAA700B4E3BD /* Buildingsbuildings_1pCube50.mesh */; };
+		09C2E48A1827CAA900B4E3BD /* Buildingsbuildings_1pCube51.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3E61827CAA700B4E3BD /* Buildingsbuildings_1pCube51.mesh */; };
+		09C2E48B1827CAA900B4E3BD /* Buildingsbuildings_1pCube52.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3E71827CAA700B4E3BD /* Buildingsbuildings_1pCube52.mesh */; };
+		09C2E48C1827CAA900B4E3BD /* Buildingsbuildings_1pCube53.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3E81827CAA700B4E3BD /* Buildingsbuildings_1pCube53.mesh */; };
+		09C2E48D1827CAA900B4E3BD /* Buildingsbuildings_1pCube54.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3E91827CAA700B4E3BD /* Buildingsbuildings_1pCube54.mesh */; };
+		09C2E48E1827CAA900B4E3BD /* Buildingsbuildings_1pCube58.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3EA1827CAA700B4E3BD /* Buildingsbuildings_1pCube58.mesh */; };
+		09C2E48F1827CAA900B4E3BD /* Buildingsbuildings_1pCube59.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3EB1827CAA700B4E3BD /* Buildingsbuildings_1pCube59.mesh */; };
+		09C2E4901827CAA900B4E3BD /* Buildingsbuildings_1pCube60.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3EC1827CAA700B4E3BD /* Buildingsbuildings_1pCube60.mesh */; };
+		09C2E4911827CAA900B4E3BD /* Buildingsbuildings_1pCube62.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3ED1827CAA700B4E3BD /* Buildingsbuildings_1pCube62.mesh */; };
+		09C2E4921827CAA900B4E3BD /* Buildingsbuildings_1pCube64.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3EE1827CAA700B4E3BD /* Buildingsbuildings_1pCube64.mesh */; };
+		09C2E4931827CAA900B4E3BD /* Buildingsbuildings_1pCube65.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3EF1827CAA700B4E3BD /* Buildingsbuildings_1pCube65.mesh */; };
+		09C2E4941827CAA900B4E3BD /* Buildingsbuildings_1pCube66.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3F01827CAA700B4E3BD /* Buildingsbuildings_1pCube66.mesh */; };
+		09C2E4951827CAA900B4E3BD /* Buildingsbuildings_1pCube67.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3F11827CAA700B4E3BD /* Buildingsbuildings_1pCube67.mesh */; };
+		09C2E4961827CAA900B4E3BD /* Buildingsbuildings_1pCube68.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3F21827CAA700B4E3BD /* Buildingsbuildings_1pCube68.mesh */; };
+		09C2E4971827CAA900B4E3BD /* Buildingsbuildings_1pCube69.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3F31827CAA700B4E3BD /* Buildingsbuildings_1pCube69.mesh */; };
+		09C2E4981827CAA900B4E3BD /* Buildingsbuildings_1pCube70.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3F41827CAA700B4E3BD /* Buildingsbuildings_1pCube70.mesh */; };
+		09C2E4991827CAA900B4E3BD /* Buildingsbuildings_1pCube71.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3F51827CAA800B4E3BD /* Buildingsbuildings_1pCube71.mesh */; };
+		09C2E49A1827CAA900B4E3BD /* Buildingsbuildings_1pCube72.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3F61827CAA800B4E3BD /* Buildingsbuildings_1pCube72.mesh */; };
+		09C2E49B1827CAA900B4E3BD /* BuildingsPaperPlane.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3F71827CAA800B4E3BD /* BuildingsPaperPlane.mesh */; };
+		09C2E49C1827CAA900B4E3BD /* BuildingspCube1.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3F81827CAA800B4E3BD /* BuildingspCube1.mesh */; };
+		09C2E49D1827CAA900B4E3BD /* BuildingspCube3.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3F91827CAA800B4E3BD /* BuildingspCube3.mesh */; };
+		09C2E49E1827CAA900B4E3BD /* BuildingspCube4.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3FA1827CAA800B4E3BD /* BuildingspCube4.mesh */; };
+		09C2E49F1827CAA900B4E3BD /* BuildingspCube5.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3FB1827CAA800B4E3BD /* BuildingspCube5.mesh */; };
+		09C2E4A01827CAA900B4E3BD /* BuildingspCube6.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3FC1827CAA800B4E3BD /* BuildingspCube6.mesh */; };
+		09C2E4A11827CAA900B4E3BD /* BuildingspCube7.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3FD1827CAA800B4E3BD /* BuildingspCube7.mesh */; };
+		09C2E4A21827CAA900B4E3BD /* BuildingspCube8.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3FE1827CAA800B4E3BD /* BuildingspCube8.mesh */; };
+		09C2E4A31827CAA900B4E3BD /* BuildingspCube9.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E3FF1827CAA800B4E3BD /* BuildingspCube9.mesh */; };
+		09C2E4A41827CAA900B4E3BD /* BuildingspCube11.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4001827CAA800B4E3BD /* BuildingspCube11.mesh */; };
+		09C2E4A51827CAA900B4E3BD /* BuildingspCube12.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4011827CAA800B4E3BD /* BuildingspCube12.mesh */; };
+		09C2E4A61827CAA900B4E3BD /* BuildingspCube13.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4021827CAA800B4E3BD /* BuildingspCube13.mesh */; };
+		09C2E4A71827CAA900B4E3BD /* BuildingspCube15.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4031827CAA800B4E3BD /* BuildingspCube15.mesh */; };
+		09C2E4A81827CAA900B4E3BD /* BuildingspCube16.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4041827CAA800B4E3BD /* BuildingspCube16.mesh */; };
+		09C2E4A91827CAA900B4E3BD /* BuildingspCube18.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4051827CAA800B4E3BD /* BuildingspCube18.mesh */; };
+		09C2E4AA1827CAA900B4E3BD /* BuildingspCube19.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4061827CAA800B4E3BD /* BuildingspCube19.mesh */; };
+		09C2E4AB1827CAA900B4E3BD /* BuildingspCube20.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4071827CAA800B4E3BD /* BuildingspCube20.mesh */; };
+		09C2E4AC1827CAA900B4E3BD /* BuildingspCube21.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4081827CAA800B4E3BD /* BuildingspCube21.mesh */; };
+		09C2E4AD1827CAA900B4E3BD /* BuildingspCube22.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4091827CAA800B4E3BD /* BuildingspCube22.mesh */; };
+		09C2E4AE1827CAA900B4E3BD /* BuildingspCube23.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E40A1827CAA800B4E3BD /* BuildingspCube23.mesh */; };
+		09C2E4AF1827CAA900B4E3BD /* BuildingspCube24.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E40B1827CAA800B4E3BD /* BuildingspCube24.mesh */; };
+		09C2E4B01827CAA900B4E3BD /* BuildingspCube26.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E40C1827CAA800B4E3BD /* BuildingspCube26.mesh */; };
+		09C2E4B11827CAA900B4E3BD /* BuildingspCube27.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E40D1827CAA800B4E3BD /* BuildingspCube27.mesh */; };
+		09C2E4B21827CAA900B4E3BD /* BuildingspCube28.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E40E1827CAA800B4E3BD /* BuildingspCube28.mesh */; };
+		09C2E4B31827CAA900B4E3BD /* BuildingspCube29.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E40F1827CAA800B4E3BD /* BuildingspCube29.mesh */; };
+		09C2E4B41827CAA900B4E3BD /* BuildingspCube30.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4101827CAA800B4E3BD /* BuildingspCube30.mesh */; };
+		09C2E4B51827CAA900B4E3BD /* BuildingspCube32.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4111827CAA800B4E3BD /* BuildingspCube32.mesh */; };
+		09C2E4B61827CAA900B4E3BD /* BuildingspCube33.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4121827CAA800B4E3BD /* BuildingspCube33.mesh */; };
+		09C2E4B71827CAA900B4E3BD /* BuildingspCube34.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4131827CAA800B4E3BD /* BuildingspCube34.mesh */; };
+		09C2E4B81827CAA900B4E3BD /* BuildingspCube35.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4141827CAA800B4E3BD /* BuildingspCube35.mesh */; };
+		09C2E4B91827CAA900B4E3BD /* BuildingspCube37.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4151827CAA800B4E3BD /* BuildingspCube37.mesh */; };
+		09C2E4BA1827CAA900B4E3BD /* BuildingspCube38.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4161827CAA800B4E3BD /* BuildingspCube38.mesh */; };
+		09C2E4BB1827CAA900B4E3BD /* BuildingspCube39.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4171827CAA800B4E3BD /* BuildingspCube39.mesh */; };
+		09C2E4BC1827CAA900B4E3BD /* BuildingspCube40.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4181827CAA800B4E3BD /* BuildingspCube40.mesh */; };
+		09C2E4BD1827CAA900B4E3BD /* BuildingspCube41.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4191827CAA800B4E3BD /* BuildingspCube41.mesh */; };
+		09C2E4BE1827CAA900B4E3BD /* BuildingspCube42.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E41A1827CAA800B4E3BD /* BuildingspCube42.mesh */; };
+		09C2E4BF1827CAA900B4E3BD /* BuildingspCube43.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E41B1827CAA800B4E3BD /* BuildingspCube43.mesh */; };
+		09C2E4C01827CAA900B4E3BD /* BuildingspCube44.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E41C1827CAA800B4E3BD /* BuildingspCube44.mesh */; };
+		09C2E4C11827CAA900B4E3BD /* BuildingspCube45.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E41D1827CAA800B4E3BD /* BuildingspCube45.mesh */; };
+		09C2E4C21827CAA900B4E3BD /* BuildingspCube46.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E41E1827CAA800B4E3BD /* BuildingspCube46.mesh */; };
+		09C2E4C31827CAA900B4E3BD /* BuildingspCube48.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E41F1827CAA800B4E3BD /* BuildingspCube48.mesh */; };
+		09C2E4C41827CAA900B4E3BD /* BuildingspCube49.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4201827CAA800B4E3BD /* BuildingspCube49.mesh */; };
+		09C2E4C51827CAA900B4E3BD /* BuildingspCube50.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4211827CAA800B4E3BD /* BuildingspCube50.mesh */; };
+		09C2E4C61827CAA900B4E3BD /* BuildingspCube53.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4221827CAA800B4E3BD /* BuildingspCube53.mesh */; };
+		09C2E4C71827CAA900B4E3BD /* BuildingspCube55.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4231827CAA800B4E3BD /* BuildingspCube55.mesh */; };
+		09C2E4C81827CAA900B4E3BD /* BuildingspCube56.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4241827CAA800B4E3BD /* BuildingspCube56.mesh */; };
+		09C2E4C91827CAA900B4E3BD /* BuildingspCube57.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4251827CAA800B4E3BD /* BuildingspCube57.mesh */; };
+		09C2E4CA1827CAA900B4E3BD /* BuildingspCube58.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4261827CAA800B4E3BD /* BuildingspCube58.mesh */; };
+		09C2E4CB1827CAA900B4E3BD /* BuildingspCube59.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4271827CAA800B4E3BD /* BuildingspCube59.mesh */; };
+		09C2E4CC1827CAA900B4E3BD /* BuildingspCube60.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4281827CAA800B4E3BD /* BuildingspCube60.mesh */; };
+		09C2E4CD1827CAA900B4E3BD /* BuildingspCube61.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4291827CAA800B4E3BD /* BuildingspCube61.mesh */; };
+		09C2E4CE1827CAA900B4E3BD /* BuildingspCube62.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E42A1827CAA800B4E3BD /* BuildingspCube62.mesh */; };
+		09C2E4CF1827CAA900B4E3BD /* BuildingspCube63.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E42B1827CAA800B4E3BD /* BuildingspCube63.mesh */; };
+		09C2E4D01827CAA900B4E3BD /* BuildingspCube65.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E42C1827CAA800B4E3BD /* BuildingspCube65.mesh */; };
+		09C2E4D11827CAA900B4E3BD /* BuildingspCube66.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E42D1827CAA800B4E3BD /* BuildingspCube66.mesh */; };
+		09C2E4D21827CAA900B4E3BD /* BuildingspCube70.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E42E1827CAA800B4E3BD /* BuildingspCube70.mesh */; };
+		09C2E4D31827CAA900B4E3BD /* BuildingspCube71.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E42F1827CAA800B4E3BD /* BuildingspCube71.mesh */; };
+		09C2E4D41827CAA900B4E3BD /* BuildingspCube72.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4301827CAA800B4E3BD /* BuildingspCube72.mesh */; };
+		09C2E4D51827CAA900B4E3BD /* BuildingspCube73.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4311827CAA800B4E3BD /* BuildingspCube73.mesh */; };
+		09C2E4D61827CAA900B4E3BD /* BuildingspCube74.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4321827CAA800B4E3BD /* BuildingspCube74.mesh */; };
+		09C2E4D71827CAA900B4E3BD /* BuildingspCube76.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4331827CAA800B4E3BD /* BuildingspCube76.mesh */; };
+		09C2E4D81827CAA900B4E3BD /* BuildingspCube77.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4341827CAA800B4E3BD /* BuildingspCube77.mesh */; };
+		09C2E4D91827CAA900B4E3BD /* BuildingspCube78.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4351827CAA800B4E3BD /* BuildingspCube78.mesh */; };
+		09C2E4DA1827CAA900B4E3BD /* BuildingspCube79.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4361827CAA800B4E3BD /* BuildingspCube79.mesh */; };
+		09C2E4DB1827CAA900B4E3BD /* BuildingspCube80.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4371827CAA800B4E3BD /* BuildingspCube80.mesh */; };
+		09C2E4DC1827CAA900B4E3BD /* BuildingspCube81.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4381827CAA800B4E3BD /* BuildingspCube81.mesh */; };
+		09C2E4DD1827CAA900B4E3BD /* BuildingspCube82.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4391827CAA800B4E3BD /* BuildingspCube82.mesh */; };
+		09C2E4DE1827CAA900B4E3BD /* BuildingspCube83.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E43A1827CAA800B4E3BD /* BuildingspCube83.mesh */; };
+		09C2E4DF1827CAA900B4E3BD /* BuildingspCube84.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E43B1827CAA800B4E3BD /* BuildingspCube84.mesh */; };
+		09C2E4E01827CAA900B4E3BD /* BuildingspCube85.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E43C1827CAA800B4E3BD /* BuildingspCube85.mesh */; };
+		09C2E4E11827CAA900B4E3BD /* BuildingspCube86.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E43D1827CAA800B4E3BD /* BuildingspCube86.mesh */; };
+		09C2E4E21827CAA900B4E3BD /* BuildingspCube87.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E43E1827CAA800B4E3BD /* BuildingspCube87.mesh */; };
+		09C2E4E31827CAA900B4E3BD /* BuildingspCube88.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E43F1827CAA800B4E3BD /* BuildingspCube88.mesh */; };
+		09C2E4E41827CAA900B4E3BD /* BuildingspCube89.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4401827CAA800B4E3BD /* BuildingspCube89.mesh */; };
+		09C2E4E51827CAA900B4E3BD /* BuildingspCube90.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4411827CAA800B4E3BD /* BuildingspCube90.mesh */; };
+		09C2E4E61827CAA900B4E3BD /* BuildingspCube91.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4421827CAA800B4E3BD /* BuildingspCube91.mesh */; };
+		09C2E4E71827CAA900B4E3BD /* BuildingspCube92.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4431827CAA800B4E3BD /* BuildingspCube92.mesh */; };
+		09C2E4E81827CAA900B4E3BD /* BuildingspCube93.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4441827CAA800B4E3BD /* BuildingspCube93.mesh */; };
+		09C2E4E91827CAA900B4E3BD /* BuildingspCube94.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4451827CAA800B4E3BD /* BuildingspCube94.mesh */; };
+		09C2E4EA1827CAA900B4E3BD /* BuildingspCylinder3.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4461827CAA800B4E3BD /* BuildingspCylinder3.mesh */; };
+		09C2E4EB1827CAA900B4E3BD /* BuildingspolySurface1.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4471827CAA800B4E3BD /* BuildingspolySurface1.mesh */; };
+		09C2E4EC1827CAA900B4E3BD /* BuildingspolySurface3.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4481827CAA800B4E3BD /* BuildingspolySurface3.mesh */; };
+		09C2E4ED1827CAA900B4E3BD /* BuildingspolySurface5.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4491827CAA800B4E3BD /* BuildingspolySurface5.mesh */; };
+		09C2E4EE1827CAA900B4E3BD /* BuildingspolySurface6.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E44A1827CAA800B4E3BD /* BuildingspolySurface6.mesh */; };
+		09C2E4EF1827CAA900B4E3BD /* BuildingspolySurface8.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E44B1827CAA800B4E3BD /* BuildingspolySurface8.mesh */; };
+		09C2E4F01827CAA900B4E3BD /* BuildingspolySurface10.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E44C1827CAA800B4E3BD /* BuildingspolySurface10.mesh */; };
+		09C2E4F11827CAA900B4E3BD /* BuildingspolySurface11.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E44D1827CAA800B4E3BD /* BuildingspolySurface11.mesh */; };
+		09C2E4F21827CAA900B4E3BD /* BuildingspolySurface12.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E44E1827CAA800B4E3BD /* BuildingspolySurface12.mesh */; };
+		09C2E4F31827CAA900B4E3BD /* BuildingspolySurface13.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E44F1827CAA800B4E3BD /* BuildingspolySurface13.mesh */; };
+		09C2E4F41827CAA900B4E3BD /* BuildingspolySurface14.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4501827CAA800B4E3BD /* BuildingspolySurface14.mesh */; };
+		09C2E4F51827CAA900B4E3BD /* BuildingspolySurface15.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4511827CAA800B4E3BD /* BuildingspolySurface15.mesh */; };
+		09C2E4F61827CAA900B4E3BD /* BuildingspolySurface16.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4521827CAA800B4E3BD /* BuildingspolySurface16.mesh */; };
+		09C2E4F71827CAA900B4E3BD /* BuildingspolySurface17.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4531827CAA800B4E3BD /* BuildingspolySurface17.mesh */; };
+		09C2E4F81827CAA900B4E3BD /* BuildingspolySurface18.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4541827CAA800B4E3BD /* BuildingspolySurface18.mesh */; };
+		09C2E4F91827CAA900B4E3BD /* BuildingspolySurface19.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4551827CAA800B4E3BD /* BuildingspolySurface19.mesh */; };
+		09C2E4FA1827CAA900B4E3BD /* BuildingspolySurface20.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4561827CAA800B4E3BD /* BuildingspolySurface20.mesh */; };
+		09C2E4FB1827CAA900B4E3BD /* BuildingspolySurface22.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4571827CAA800B4E3BD /* BuildingspolySurface22.mesh */; };
+		09C2E4FC1827CAA900B4E3BD /* BuildingspolySurface24.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4581827CAA800B4E3BD /* BuildingspolySurface24.mesh */; };
+		09C2E4FD1827CAA900B4E3BD /* BuildingspolySurface26.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4591827CAA800B4E3BD /* BuildingspolySurface26.mesh */; };
+		09C2E4FE1827CAA900B4E3BD /* BuildingspolySurface28.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E45A1827CAA800B4E3BD /* BuildingspolySurface28.mesh */; };
+		09C2E4FF1827CAA900B4E3BD /* BuildingspolySurface29.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E45B1827CAA800B4E3BD /* BuildingspolySurface29.mesh */; };
+		09C2E5001827CAA900B4E3BD /* BuildingspolySurface30.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E45C1827CAA800B4E3BD /* BuildingspolySurface30.mesh */; };
+		09C2E5011827CAA900B4E3BD /* BuildingspolySurface31.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E45D1827CAA800B4E3BD /* BuildingspolySurface31.mesh */; };
+		09C2E5021827CAA900B4E3BD /* BuildingspolySurface32.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E45E1827CAA800B4E3BD /* BuildingspolySurface32.mesh */; };
+		09C2E5031827CAA900B4E3BD /* BuildingspolySurface33.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E45F1827CAA800B4E3BD /* BuildingspolySurface33.mesh */; };
+		09C2E5041827CAA900B4E3BD /* BuildingspolySurface35.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4601827CAA800B4E3BD /* BuildingspolySurface35.mesh */; };
+		09C2E5051827CAA900B4E3BD /* BuildingspolySurface36.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4611827CAA800B4E3BD /* BuildingspolySurface36.mesh */; };
+		09C2E5061827CAA900B4E3BD /* BuildingspolySurface38.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4621827CAA800B4E3BD /* BuildingspolySurface38.mesh */; };
+		09C2E5071827CAA900B4E3BD /* BuildingspolySurface39.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4631827CAA800B4E3BD /* BuildingspolySurface39.mesh */; };
+		09C2E5081827CAA900B4E3BD /* BuildingspolySurface41.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4641827CAA800B4E3BD /* BuildingspolySurface41.mesh */; };
+		09C2E5091827CAA900B4E3BD /* BuildingspolySurface42.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4651827CAA800B4E3BD /* BuildingspolySurface42.mesh */; };
+		09C2E50A1827CAA900B4E3BD /* BuildingspolySurface44.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4661827CAA800B4E3BD /* BuildingspolySurface44.mesh */; };
+		09C2E50B1827CAA900B4E3BD /* BuildingspolySurface45.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4671827CAA800B4E3BD /* BuildingspolySurface45.mesh */; };
+		09C2E50C1827CAA900B4E3BD /* BuildingspolySurface46.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4681827CAA800B4E3BD /* BuildingspolySurface46.mesh */; };
+		09C2E50D1827CAA900B4E3BD /* BuildingspolySurface47.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4691827CAA800B4E3BD /* BuildingspolySurface47.mesh */; };
+		09C2E50E1827CAA900B4E3BD /* BuildingspolySurface49.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E46A1827CAA800B4E3BD /* BuildingspolySurface49.mesh */; };
+		09C2E50F1827CAA900B4E3BD /* BuildingspolySurface50.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E46B1827CAA800B4E3BD /* BuildingspolySurface50.mesh */; };
+		09C2E5101827CAA900B4E3BD /* BuildingspolySurface52.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E46C1827CAA900B4E3BD /* BuildingspolySurface52.mesh */; };
+		09C2E5111827CAA900B4E3BD /* BuildingspolySurface54.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E46D1827CAA900B4E3BD /* BuildingspolySurface54.mesh */; };
+		09C2E5121827CAA900B4E3BD /* BuildingspolySurface56.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E46E1827CAA900B4E3BD /* BuildingspolySurface56.mesh */; };
+		09C2E5131827CAA900B4E3BD /* BuildingspolySurface57.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E46F1827CAA900B4E3BD /* BuildingspolySurface57.mesh */; };
+		09C2E5141827CAA900B4E3BD /* BuildingspolySurface58.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4701827CAA900B4E3BD /* BuildingspolySurface58.mesh */; };
+		09C2E5151827CAA900B4E3BD /* BuildingspolySurface61.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4711827CAA900B4E3BD /* BuildingspolySurface61.mesh */; };
+		09C2E5161827CAA900B4E3BD /* BuildingspolySurface62.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4721827CAA900B4E3BD /* BuildingspolySurface62.mesh */; };
+		09C2E5171827CAA900B4E3BD /* BuildingspolySurface64.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4731827CAA900B4E3BD /* BuildingspolySurface64.mesh */; };
+		09C2E5181827CAA900B4E3BD /* BuildingspolySurface65.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4741827CAA900B4E3BD /* BuildingspolySurface65.mesh */; };
+		09C2E5191827CAA900B4E3BD /* BuildingspolySurface66.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4751827CAA900B4E3BD /* BuildingspolySurface66.mesh */; };
+		09C2E51A1827CAA900B4E3BD /* BuildingspolySurface67.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4761827CAA900B4E3BD /* BuildingspolySurface67.mesh */; };
+		09C2E51B1827CAA900B4E3BD /* BuildingspolySurface69.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4771827CAA900B4E3BD /* BuildingspolySurface69.mesh */; };
+		09C2E51C1827CAA900B4E3BD /* BuildingspolySurface70.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4781827CAA900B4E3BD /* BuildingspolySurface70.mesh */; };
+		09C2E51D1827CAA900B4E3BD /* BuildingspolySurface72.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4791827CAA900B4E3BD /* BuildingspolySurface72.mesh */; };
+		09C2E51E1827CAA900B4E3BD /* BuildingspolySurface73.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E47A1827CAA900B4E3BD /* BuildingspolySurface73.mesh */; };
+		09C2E51F1827CAA900B4E3BD /* BuildingspolySurface77.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E47B1827CAA900B4E3BD /* BuildingspolySurface77.mesh */; };
+		09C2E5201827CAA900B4E3BD /* BuildingspolySurface78.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E47C1827CAA900B4E3BD /* BuildingspolySurface78.mesh */; };
+		09C2E5211827CAA900B4E3BD /* BuildingspolySurface79.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E47D1827CAA900B4E3BD /* BuildingspolySurface79.mesh */; };
+		09C2E5221827CAA900B4E3BD /* BuildingspolySurface80.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E47E1827CAA900B4E3BD /* BuildingspolySurface80.mesh */; };
+		09C2E5231827CAA900B4E3BD /* BuildingspolySurface81.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E47F1827CAA900B4E3BD /* BuildingspolySurface81.mesh */; };
+		09C2E5241827CAA900B4E3BD /* BuildingspolySurface83.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4801827CAA900B4E3BD /* BuildingspolySurface83.mesh */; };
+		09C2E5251827CAA900B4E3BD /* BuildingspolySurface84.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4811827CAA900B4E3BD /* BuildingspolySurface84.mesh */; };
+		09C2E5261827CAA900B4E3BD /* BuildingspolySurface85.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4821827CAA900B4E3BD /* BuildingspolySurface85.mesh */; };
+		09C2E5271827CAA900B4E3BD /* BuildingspPlane1.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E4831827CAA900B4E3BD /* BuildingspPlane1.mesh */; };
+		09C2E5291827CABC00B4E3BD /* Buildings_5.material in Resources */ = {isa = PBXBuildFile; fileRef = 09C2E5281827CABC00B4E3BD /* Buildings_5.material */; };
+		09F59B2F18141B6600FC8EF6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F59B2E18141B6500FC8EF6 /* AVFoundation.framework */; };
+		09F59B3618141F0800FC8EF6 /* OgreAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F59B3518141F0800FC8EF6 /* OgreAudioPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09191E1B18137238000EFE7D /* OgreFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OgreFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09191E1E18137238000EFE7D /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		09191E2018137239000EFE7D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		09191E2218137239000EFE7D /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		09191E2418137239000EFE7D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		09191E2618137239000EFE7D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		09191E2A18137239000EFE7D /* OgreFinal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OgreFinal-Prefix.pch"; sourceTree = "<group>"; };
+		09191E2B18137239000EFE7D /* OgreFinal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OgreFinal-Info.plist"; sourceTree = "<group>"; };
+		09191E2D18137239000EFE7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09191E2F18137239000EFE7D /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		09191E3218137239000EFE7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09191E3318137239000EFE7D /* OgreDemoApp.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OgreDemoApp.mm; sourceTree = "<group>"; };
+		09191E3518137239000EFE7D /* OgreDemoApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OgreDemoApp.h; sourceTree = "<group>"; };
+		09191E3618137239000EFE7D /* OgreFramework.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OgreFramework.mm; sourceTree = "<group>"; };
+		09191E3818137239000EFE7D /* OgreFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OgreFramework.h; sourceTree = "<group>"; };
+		09191E4A18137239000EFE7D /* ogre.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; path = ogre.cfg; sourceTree = "<group>"; };
+		09191E4C18137239000EFE7D /* plugins.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; path = plugins.cfg; sourceTree = "<group>"; };
+		09191E4E18137239000EFE7D /* resources.cfg */ = {isa = PBXFileReference; lastKnownFileType = text; path = resources.cfg; sourceTree = "<group>"; };
+		091925C61813965E000EFE7D /* SdkTrays.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = SdkTrays.zip; sourceTree = "<group>"; };
+		092195321814F4880034D831 /* PaperPlane.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PaperPlane.mm; sourceTree = "<group>"; };
+		092195331814F4880034D831 /* PaperPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperPlane.h; sourceTree = "<group>"; };
+		092843BC1A050878003C64C7 /* OgreFinal-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OgreFinal-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0961B5201816311700E45F7E /* bgAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bgAudio.mp3; path = Media/Audios/bgAudio.mp3; sourceTree = "<group>"; };
+		0966227018280130007AE454 /* Buildings_5.scene */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Buildings_5.scene; sourceTree = "<group>"; };
+		097613D1181E76E40091512A /* OgreMaxModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OgreMaxModel.cpp; sourceTree = "<group>"; };
+		097613D2181E76E40091512A /* OgreMaxModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OgreMaxModel.hpp; sourceTree = "<group>"; };
+		097613D3181E76E40091512A /* OgreMaxPlatform.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OgreMaxPlatform.hpp; sourceTree = "<group>"; };
+		097613D4181E76E40091512A /* OgreMaxRenderWindowIterator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OgreMaxRenderWindowIterator.hpp; sourceTree = "<group>"; };
+		097613D5181E76E40091512A /* OgreMaxScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OgreMaxScene.cpp; sourceTree = "<group>"; };
+		097613D6181E76E40091512A /* OgreMaxScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OgreMaxScene.hpp; sourceTree = "<group>"; };
+		097613D7181E76E40091512A /* OgreMaxTypes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OgreMaxTypes.hpp; sourceTree = "<group>"; };
+		097613D8181E76E40091512A /* OgreMaxUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OgreMaxUtilities.cpp; sourceTree = "<group>"; };
+		097613D9181E76E40091512A /* OgreMaxUtilities.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OgreMaxUtilities.hpp; sourceTree = "<group>"; };
+		097613DA181E76E40091512A /* ProgressCalculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProgressCalculator.cpp; sourceTree = "<group>"; };
+		097613DB181E76E40091512A /* ProgressCalculator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProgressCalculator.hpp; sourceTree = "<group>"; };
+		097613DF181E76E40091512A /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinystr.cpp; sourceTree = "<group>"; };
+		097613E0181E76E40091512A /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
+		097613E1181E76E40091512A /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		097613E2181E76E40091512A /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
+		097613E3181E76E40091512A /* tinyxml2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml2.cpp; sourceTree = "<group>"; };
+		097613E4181E76E40091512A /* tinyxml2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml2.h; sourceTree = "<group>"; };
+		097613E5181E76E40091512A /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		097613E6181E76E40091512A /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
+		097613E7181E76E40091512A /* Version.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Version.cpp; sourceTree = "<group>"; };
+		097613E8181E76E40091512A /* Version.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Version.hpp; sourceTree = "<group>"; };
+		09761590181E7F1F0091512A /* windBlowAudio.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = windBlowAudio.wav; path = Media/Audios/windBlowAudio.wav; sourceTree = "<group>"; };
+		09C2E3E01827CAA700B4E3BD /* Buildingsbuildings_1pCube29.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube29.mesh; sourceTree = "<group>"; };
+		09C2E3E11827CAA700B4E3BD /* Buildingsbuildings_1pCube46.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube46.mesh; sourceTree = "<group>"; };
+		09C2E3E21827CAA700B4E3BD /* Buildingsbuildings_1pCube47.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube47.mesh; sourceTree = "<group>"; };
+		09C2E3E31827CAA700B4E3BD /* Buildingsbuildings_1pCube48.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube48.mesh; sourceTree = "<group>"; };
+		09C2E3E41827CAA700B4E3BD /* Buildingsbuildings_1pCube49.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube49.mesh; sourceTree = "<group>"; };
+		09C2E3E51827CAA700B4E3BD /* Buildingsbuildings_1pCube50.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube50.mesh; sourceTree = "<group>"; };
+		09C2E3E61827CAA700B4E3BD /* Buildingsbuildings_1pCube51.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube51.mesh; sourceTree = "<group>"; };
+		09C2E3E71827CAA700B4E3BD /* Buildingsbuildings_1pCube52.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube52.mesh; sourceTree = "<group>"; };
+		09C2E3E81827CAA700B4E3BD /* Buildingsbuildings_1pCube53.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube53.mesh; sourceTree = "<group>"; };
+		09C2E3E91827CAA700B4E3BD /* Buildingsbuildings_1pCube54.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube54.mesh; sourceTree = "<group>"; };
+		09C2E3EA1827CAA700B4E3BD /* Buildingsbuildings_1pCube58.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube58.mesh; sourceTree = "<group>"; };
+		09C2E3EB1827CAA700B4E3BD /* Buildingsbuildings_1pCube59.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube59.mesh; sourceTree = "<group>"; };
+		09C2E3EC1827CAA700B4E3BD /* Buildingsbuildings_1pCube60.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube60.mesh; sourceTree = "<group>"; };
+		09C2E3ED1827CAA700B4E3BD /* Buildingsbuildings_1pCube62.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube62.mesh; sourceTree = "<group>"; };
+		09C2E3EE1827CAA700B4E3BD /* Buildingsbuildings_1pCube64.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube64.mesh; sourceTree = "<group>"; };
+		09C2E3EF1827CAA700B4E3BD /* Buildingsbuildings_1pCube65.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube65.mesh; sourceTree = "<group>"; };
+		09C2E3F01827CAA700B4E3BD /* Buildingsbuildings_1pCube66.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube66.mesh; sourceTree = "<group>"; };
+		09C2E3F11827CAA700B4E3BD /* Buildingsbuildings_1pCube67.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube67.mesh; sourceTree = "<group>"; };
+		09C2E3F21827CAA700B4E3BD /* Buildingsbuildings_1pCube68.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube68.mesh; sourceTree = "<group>"; };
+		09C2E3F31827CAA700B4E3BD /* Buildingsbuildings_1pCube69.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube69.mesh; sourceTree = "<group>"; };
+		09C2E3F41827CAA700B4E3BD /* Buildingsbuildings_1pCube70.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube70.mesh; sourceTree = "<group>"; };
+		09C2E3F51827CAA800B4E3BD /* Buildingsbuildings_1pCube71.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube71.mesh; sourceTree = "<group>"; };
+		09C2E3F61827CAA800B4E3BD /* Buildingsbuildings_1pCube72.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buildingsbuildings_1pCube72.mesh; sourceTree = "<group>"; };
+		09C2E3F71827CAA800B4E3BD /* BuildingsPaperPlane.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingsPaperPlane.mesh; sourceTree = "<group>"; };
+		09C2E3F81827CAA800B4E3BD /* BuildingspCube1.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube1.mesh; sourceTree = "<group>"; };
+		09C2E3F91827CAA800B4E3BD /* BuildingspCube3.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube3.mesh; sourceTree = "<group>"; };
+		09C2E3FA1827CAA800B4E3BD /* BuildingspCube4.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube4.mesh; sourceTree = "<group>"; };
+		09C2E3FB1827CAA800B4E3BD /* BuildingspCube5.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube5.mesh; sourceTree = "<group>"; };
+		09C2E3FC1827CAA800B4E3BD /* BuildingspCube6.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube6.mesh; sourceTree = "<group>"; };
+		09C2E3FD1827CAA800B4E3BD /* BuildingspCube7.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube7.mesh; sourceTree = "<group>"; };
+		09C2E3FE1827CAA800B4E3BD /* BuildingspCube8.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube8.mesh; sourceTree = "<group>"; };
+		09C2E3FF1827CAA800B4E3BD /* BuildingspCube9.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube9.mesh; sourceTree = "<group>"; };
+		09C2E4001827CAA800B4E3BD /* BuildingspCube11.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube11.mesh; sourceTree = "<group>"; };
+		09C2E4011827CAA800B4E3BD /* BuildingspCube12.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube12.mesh; sourceTree = "<group>"; };
+		09C2E4021827CAA800B4E3BD /* BuildingspCube13.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube13.mesh; sourceTree = "<group>"; };
+		09C2E4031827CAA800B4E3BD /* BuildingspCube15.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube15.mesh; sourceTree = "<group>"; };
+		09C2E4041827CAA800B4E3BD /* BuildingspCube16.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube16.mesh; sourceTree = "<group>"; };
+		09C2E4051827CAA800B4E3BD /* BuildingspCube18.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube18.mesh; sourceTree = "<group>"; };
+		09C2E4061827CAA800B4E3BD /* BuildingspCube19.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube19.mesh; sourceTree = "<group>"; };
+		09C2E4071827CAA800B4E3BD /* BuildingspCube20.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube20.mesh; sourceTree = "<group>"; };
+		09C2E4081827CAA800B4E3BD /* BuildingspCube21.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube21.mesh; sourceTree = "<group>"; };
+		09C2E4091827CAA800B4E3BD /* BuildingspCube22.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube22.mesh; sourceTree = "<group>"; };
+		09C2E40A1827CAA800B4E3BD /* BuildingspCube23.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube23.mesh; sourceTree = "<group>"; };
+		09C2E40B1827CAA800B4E3BD /* BuildingspCube24.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube24.mesh; sourceTree = "<group>"; };
+		09C2E40C1827CAA800B4E3BD /* BuildingspCube26.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube26.mesh; sourceTree = "<group>"; };
+		09C2E40D1827CAA800B4E3BD /* BuildingspCube27.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube27.mesh; sourceTree = "<group>"; };
+		09C2E40E1827CAA800B4E3BD /* BuildingspCube28.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube28.mesh; sourceTree = "<group>"; };
+		09C2E40F1827CAA800B4E3BD /* BuildingspCube29.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube29.mesh; sourceTree = "<group>"; };
+		09C2E4101827CAA800B4E3BD /* BuildingspCube30.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube30.mesh; sourceTree = "<group>"; };
+		09C2E4111827CAA800B4E3BD /* BuildingspCube32.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube32.mesh; sourceTree = "<group>"; };
+		09C2E4121827CAA800B4E3BD /* BuildingspCube33.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube33.mesh; sourceTree = "<group>"; };
+		09C2E4131827CAA800B4E3BD /* BuildingspCube34.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube34.mesh; sourceTree = "<group>"; };
+		09C2E4141827CAA800B4E3BD /* BuildingspCube35.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube35.mesh; sourceTree = "<group>"; };
+		09C2E4151827CAA800B4E3BD /* BuildingspCube37.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube37.mesh; sourceTree = "<group>"; };
+		09C2E4161827CAA800B4E3BD /* BuildingspCube38.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube38.mesh; sourceTree = "<group>"; };
+		09C2E4171827CAA800B4E3BD /* BuildingspCube39.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube39.mesh; sourceTree = "<group>"; };
+		09C2E4181827CAA800B4E3BD /* BuildingspCube40.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube40.mesh; sourceTree = "<group>"; };
+		09C2E4191827CAA800B4E3BD /* BuildingspCube41.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube41.mesh; sourceTree = "<group>"; };
+		09C2E41A1827CAA800B4E3BD /* BuildingspCube42.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube42.mesh; sourceTree = "<group>"; };
+		09C2E41B1827CAA800B4E3BD /* BuildingspCube43.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube43.mesh; sourceTree = "<group>"; };
+		09C2E41C1827CAA800B4E3BD /* BuildingspCube44.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube44.mesh; sourceTree = "<group>"; };
+		09C2E41D1827CAA800B4E3BD /* BuildingspCube45.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube45.mesh; sourceTree = "<group>"; };
+		09C2E41E1827CAA800B4E3BD /* BuildingspCube46.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube46.mesh; sourceTree = "<group>"; };
+		09C2E41F1827CAA800B4E3BD /* BuildingspCube48.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube48.mesh; sourceTree = "<group>"; };
+		09C2E4201827CAA800B4E3BD /* BuildingspCube49.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube49.mesh; sourceTree = "<group>"; };
+		09C2E4211827CAA800B4E3BD /* BuildingspCube50.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube50.mesh; sourceTree = "<group>"; };
+		09C2E4221827CAA800B4E3BD /* BuildingspCube53.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube53.mesh; sourceTree = "<group>"; };
+		09C2E4231827CAA800B4E3BD /* BuildingspCube55.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube55.mesh; sourceTree = "<group>"; };
+		09C2E4241827CAA800B4E3BD /* BuildingspCube56.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube56.mesh; sourceTree = "<group>"; };
+		09C2E4251827CAA800B4E3BD /* BuildingspCube57.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube57.mesh; sourceTree = "<group>"; };
+		09C2E4261827CAA800B4E3BD /* BuildingspCube58.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube58.mesh; sourceTree = "<group>"; };
+		09C2E4271827CAA800B4E3BD /* BuildingspCube59.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube59.mesh; sourceTree = "<group>"; };
+		09C2E4281827CAA800B4E3BD /* BuildingspCube60.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube60.mesh; sourceTree = "<group>"; };
+		09C2E4291827CAA800B4E3BD /* BuildingspCube61.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube61.mesh; sourceTree = "<group>"; };
+		09C2E42A1827CAA800B4E3BD /* BuildingspCube62.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube62.mesh; sourceTree = "<group>"; };
+		09C2E42B1827CAA800B4E3BD /* BuildingspCube63.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube63.mesh; sourceTree = "<group>"; };
+		09C2E42C1827CAA800B4E3BD /* BuildingspCube65.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube65.mesh; sourceTree = "<group>"; };
+		09C2E42D1827CAA800B4E3BD /* BuildingspCube66.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube66.mesh; sourceTree = "<group>"; };
+		09C2E42E1827CAA800B4E3BD /* BuildingspCube70.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube70.mesh; sourceTree = "<group>"; };
+		09C2E42F1827CAA800B4E3BD /* BuildingspCube71.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube71.mesh; sourceTree = "<group>"; };
+		09C2E4301827CAA800B4E3BD /* BuildingspCube72.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube72.mesh; sourceTree = "<group>"; };
+		09C2E4311827CAA800B4E3BD /* BuildingspCube73.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube73.mesh; sourceTree = "<group>"; };
+		09C2E4321827CAA800B4E3BD /* BuildingspCube74.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube74.mesh; sourceTree = "<group>"; };
+		09C2E4331827CAA800B4E3BD /* BuildingspCube76.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube76.mesh; sourceTree = "<group>"; };
+		09C2E4341827CAA800B4E3BD /* BuildingspCube77.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube77.mesh; sourceTree = "<group>"; };
+		09C2E4351827CAA800B4E3BD /* BuildingspCube78.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube78.mesh; sourceTree = "<group>"; };
+		09C2E4361827CAA800B4E3BD /* BuildingspCube79.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube79.mesh; sourceTree = "<group>"; };
+		09C2E4371827CAA800B4E3BD /* BuildingspCube80.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube80.mesh; sourceTree = "<group>"; };
+		09C2E4381827CAA800B4E3BD /* BuildingspCube81.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube81.mesh; sourceTree = "<group>"; };
+		09C2E4391827CAA800B4E3BD /* BuildingspCube82.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube82.mesh; sourceTree = "<group>"; };
+		09C2E43A1827CAA800B4E3BD /* BuildingspCube83.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube83.mesh; sourceTree = "<group>"; };
+		09C2E43B1827CAA800B4E3BD /* BuildingspCube84.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube84.mesh; sourceTree = "<group>"; };
+		09C2E43C1827CAA800B4E3BD /* BuildingspCube85.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube85.mesh; sourceTree = "<group>"; };
+		09C2E43D1827CAA800B4E3BD /* BuildingspCube86.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube86.mesh; sourceTree = "<group>"; };
+		09C2E43E1827CAA800B4E3BD /* BuildingspCube87.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube87.mesh; sourceTree = "<group>"; };
+		09C2E43F1827CAA800B4E3BD /* BuildingspCube88.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube88.mesh; sourceTree = "<group>"; };
+		09C2E4401827CAA800B4E3BD /* BuildingspCube89.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube89.mesh; sourceTree = "<group>"; };
+		09C2E4411827CAA800B4E3BD /* BuildingspCube90.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube90.mesh; sourceTree = "<group>"; };
+		09C2E4421827CAA800B4E3BD /* BuildingspCube91.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube91.mesh; sourceTree = "<group>"; };
+		09C2E4431827CAA800B4E3BD /* BuildingspCube92.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube92.mesh; sourceTree = "<group>"; };
+		09C2E4441827CAA800B4E3BD /* BuildingspCube93.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube93.mesh; sourceTree = "<group>"; };
+		09C2E4451827CAA800B4E3BD /* BuildingspCube94.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCube94.mesh; sourceTree = "<group>"; };
+		09C2E4461827CAA800B4E3BD /* BuildingspCylinder3.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspCylinder3.mesh; sourceTree = "<group>"; };
+		09C2E4471827CAA800B4E3BD /* BuildingspolySurface1.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface1.mesh; sourceTree = "<group>"; };
+		09C2E4481827CAA800B4E3BD /* BuildingspolySurface3.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface3.mesh; sourceTree = "<group>"; };
+		09C2E4491827CAA800B4E3BD /* BuildingspolySurface5.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface5.mesh; sourceTree = "<group>"; };
+		09C2E44A1827CAA800B4E3BD /* BuildingspolySurface6.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface6.mesh; sourceTree = "<group>"; };
+		09C2E44B1827CAA800B4E3BD /* BuildingspolySurface8.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface8.mesh; sourceTree = "<group>"; };
+		09C2E44C1827CAA800B4E3BD /* BuildingspolySurface10.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface10.mesh; sourceTree = "<group>"; };
+		09C2E44D1827CAA800B4E3BD /* BuildingspolySurface11.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface11.mesh; sourceTree = "<group>"; };
+		09C2E44E1827CAA800B4E3BD /* BuildingspolySurface12.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface12.mesh; sourceTree = "<group>"; };
+		09C2E44F1827CAA800B4E3BD /* BuildingspolySurface13.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface13.mesh; sourceTree = "<group>"; };
+		09C2E4501827CAA800B4E3BD /* BuildingspolySurface14.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface14.mesh; sourceTree = "<group>"; };
+		09C2E4511827CAA800B4E3BD /* BuildingspolySurface15.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface15.mesh; sourceTree = "<group>"; };
+		09C2E4521827CAA800B4E3BD /* BuildingspolySurface16.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface16.mesh; sourceTree = "<group>"; };
+		09C2E4531827CAA800B4E3BD /* BuildingspolySurface17.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface17.mesh; sourceTree = "<group>"; };
+		09C2E4541827CAA800B4E3BD /* BuildingspolySurface18.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface18.mesh; sourceTree = "<group>"; };
+		09C2E4551827CAA800B4E3BD /* BuildingspolySurface19.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface19.mesh; sourceTree = "<group>"; };
+		09C2E4561827CAA800B4E3BD /* BuildingspolySurface20.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface20.mesh; sourceTree = "<group>"; };
+		09C2E4571827CAA800B4E3BD /* BuildingspolySurface22.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface22.mesh; sourceTree = "<group>"; };
+		09C2E4581827CAA800B4E3BD /* BuildingspolySurface24.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface24.mesh; sourceTree = "<group>"; };
+		09C2E4591827CAA800B4E3BD /* BuildingspolySurface26.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface26.mesh; sourceTree = "<group>"; };
+		09C2E45A1827CAA800B4E3BD /* BuildingspolySurface28.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface28.mesh; sourceTree = "<group>"; };
+		09C2E45B1827CAA800B4E3BD /* BuildingspolySurface29.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface29.mesh; sourceTree = "<group>"; };
+		09C2E45C1827CAA800B4E3BD /* BuildingspolySurface30.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface30.mesh; sourceTree = "<group>"; };
+		09C2E45D1827CAA800B4E3BD /* BuildingspolySurface31.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface31.mesh; sourceTree = "<group>"; };
+		09C2E45E1827CAA800B4E3BD /* BuildingspolySurface32.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface32.mesh; sourceTree = "<group>"; };
+		09C2E45F1827CAA800B4E3BD /* BuildingspolySurface33.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface33.mesh; sourceTree = "<group>"; };
+		09C2E4601827CAA800B4E3BD /* BuildingspolySurface35.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface35.mesh; sourceTree = "<group>"; };
+		09C2E4611827CAA800B4E3BD /* BuildingspolySurface36.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface36.mesh; sourceTree = "<group>"; };
+		09C2E4621827CAA800B4E3BD /* BuildingspolySurface38.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface38.mesh; sourceTree = "<group>"; };
+		09C2E4631827CAA800B4E3BD /* BuildingspolySurface39.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface39.mesh; sourceTree = "<group>"; };
+		09C2E4641827CAA800B4E3BD /* BuildingspolySurface41.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface41.mesh; sourceTree = "<group>"; };
+		09C2E4651827CAA800B4E3BD /* BuildingspolySurface42.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface42.mesh; sourceTree = "<group>"; };
+		09C2E4661827CAA800B4E3BD /* BuildingspolySurface44.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface44.mesh; sourceTree = "<group>"; };
+		09C2E4671827CAA800B4E3BD /* BuildingspolySurface45.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface45.mesh; sourceTree = "<group>"; };
+		09C2E4681827CAA800B4E3BD /* BuildingspolySurface46.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface46.mesh; sourceTree = "<group>"; };
+		09C2E4691827CAA800B4E3BD /* BuildingspolySurface47.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface47.mesh; sourceTree = "<group>"; };
+		09C2E46A1827CAA800B4E3BD /* BuildingspolySurface49.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface49.mesh; sourceTree = "<group>"; };
+		09C2E46B1827CAA800B4E3BD /* BuildingspolySurface50.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface50.mesh; sourceTree = "<group>"; };
+		09C2E46C1827CAA900B4E3BD /* BuildingspolySurface52.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface52.mesh; sourceTree = "<group>"; };
+		09C2E46D1827CAA900B4E3BD /* BuildingspolySurface54.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface54.mesh; sourceTree = "<group>"; };
+		09C2E46E1827CAA900B4E3BD /* BuildingspolySurface56.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface56.mesh; sourceTree = "<group>"; };
+		09C2E46F1827CAA900B4E3BD /* BuildingspolySurface57.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface57.mesh; sourceTree = "<group>"; };
+		09C2E4701827CAA900B4E3BD /* BuildingspolySurface58.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface58.mesh; sourceTree = "<group>"; };
+		09C2E4711827CAA900B4E3BD /* BuildingspolySurface61.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface61.mesh; sourceTree = "<group>"; };
+		09C2E4721827CAA900B4E3BD /* BuildingspolySurface62.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface62.mesh; sourceTree = "<group>"; };
+		09C2E4731827CAA900B4E3BD /* BuildingspolySurface64.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface64.mesh; sourceTree = "<group>"; };
+		09C2E4741827CAA900B4E3BD /* BuildingspolySurface65.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface65.mesh; sourceTree = "<group>"; };
+		09C2E4751827CAA900B4E3BD /* BuildingspolySurface66.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface66.mesh; sourceTree = "<group>"; };
+		09C2E4761827CAA900B4E3BD /* BuildingspolySurface67.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface67.mesh; sourceTree = "<group>"; };
+		09C2E4771827CAA900B4E3BD /* BuildingspolySurface69.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface69.mesh; sourceTree = "<group>"; };
+		09C2E4781827CAA900B4E3BD /* BuildingspolySurface70.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface70.mesh; sourceTree = "<group>"; };
+		09C2E4791827CAA900B4E3BD /* BuildingspolySurface72.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface72.mesh; sourceTree = "<group>"; };
+		09C2E47A1827CAA900B4E3BD /* BuildingspolySurface73.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface73.mesh; sourceTree = "<group>"; };
+		09C2E47B1827CAA900B4E3BD /* BuildingspolySurface77.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface77.mesh; sourceTree = "<group>"; };
+		09C2E47C1827CAA900B4E3BD /* BuildingspolySurface78.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface78.mesh; sourceTree = "<group>"; };
+		09C2E47D1827CAA900B4E3BD /* BuildingspolySurface79.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface79.mesh; sourceTree = "<group>"; };
+		09C2E47E1827CAA900B4E3BD /* BuildingspolySurface80.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface80.mesh; sourceTree = "<group>"; };
+		09C2E47F1827CAA900B4E3BD /* BuildingspolySurface81.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface81.mesh; sourceTree = "<group>"; };
+		09C2E4801827CAA900B4E3BD /* BuildingspolySurface83.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface83.mesh; sourceTree = "<group>"; };
+		09C2E4811827CAA900B4E3BD /* BuildingspolySurface84.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface84.mesh; sourceTree = "<group>"; };
+		09C2E4821827CAA900B4E3BD /* BuildingspolySurface85.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspolySurface85.mesh; sourceTree = "<group>"; };
+		09C2E4831827CAA900B4E3BD /* BuildingspPlane1.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = BuildingspPlane1.mesh; sourceTree = "<group>"; };
+		09C2E5281827CABC00B4E3BD /* Buildings_5.material */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Buildings_5.material; sourceTree = "<group>"; };
+		09F59B2E18141B6500FC8EF6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		09F59B3418141F0800FC8EF6 /* OgreAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OgreAudioPlayer.h; sourceTree = "<group>"; };
+		09F59B3518141F0800FC8EF6 /* OgreAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OgreAudioPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09191E1718137238000EFE7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F59B2F18141B6600FC8EF6 /* AVFoundation.framework in Frameworks */,
+				09191E2718137239000EFE7D /* QuartzCore.framework in Frameworks */,
+				09191E2118137239000EFE7D /* Cocoa.framework in Frameworks */,
+				09191E2518137239000EFE7D /* OpenGL.framework in Frameworks */,
+				09191E1F18137238000EFE7D /* Carbon.framework in Frameworks */,
+				09191E2318137239000EFE7D /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09191E1118137238000EFE7D = {
+			isa = PBXGroup;
+			children = (
+				09191E2818137239000EFE7D /* OgreFinal */,
+				09191E1D18137238000EFE7D /* Frameworks */,
+				09191E1C18137238000EFE7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09191E1C18137238000EFE7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09191E1B18137238000EFE7D /* OgreFinal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09191E1D18137238000EFE7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09F59B2E18141B6500FC8EF6 /* AVFoundation.framework */,
+				09191E1E18137238000EFE7D /* Carbon.framework */,
+				09191E2018137239000EFE7D /* Cocoa.framework */,
+				09191E2218137239000EFE7D /* IOKit.framework */,
+				09191E2418137239000EFE7D /* OpenGL.framework */,
+				09191E2618137239000EFE7D /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09191E2818137239000EFE7D /* OgreFinal */ = {
+			isa = PBXGroup;
+			children = (
+				092843BC1A050878003C64C7 /* OgreFinal-Info.plist */,
+				09191E2C18137239000EFE7D /* InfoPlist.strings */,
+				09191E2F18137239000EFE7D /* main.mm */,
+				09191E3118137239000EFE7D /* Basic Ogre Framework */,
+				09191E3918137239000EFE7D /* Resources */,
+				09191E2918137239000EFE7D /* Supporting Files */,
+			);
+			path = OgreFinal;
+			sourceTree = "<group>";
+		};
+		09191E2918137239000EFE7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09191E2A18137239000EFE7D /* OgreFinal-Prefix.pch */,
+				09191E2B18137239000EFE7D /* OgreFinal-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09191E3118137239000EFE7D /* Basic Ogre Framework */ = {
+			isa = PBXGroup;
+			children = (
+				09191E3218137239000EFE7D /* AppDelegate.h */,
+				09191E3318137239000EFE7D /* OgreDemoApp.mm */,
+				09191E3518137239000EFE7D /* OgreDemoApp.h */,
+				09191E3618137239000EFE7D /* OgreFramework.mm */,
+				09191E3818137239000EFE7D /* OgreFramework.h */,
+				09F59B3418141F0800FC8EF6 /* OgreAudioPlayer.h */,
+				09F59B3518141F0800FC8EF6 /* OgreAudioPlayer.m */,
+				092195321814F4880034D831 /* PaperPlane.mm */,
+				092195331814F4880034D831 /* PaperPlane.h */,
+				097613CB181E76E40091512A /* OpenSrcLib */,
+			);
+			name = "Basic Ogre Framework";
+			sourceTree = "<group>";
+		};
+		09191E3918137239000EFE7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				091923A31813965C000EFE7D /* Media */,
+				09191E4A18137239000EFE7D /* ogre.cfg */,
+				09191E4C18137239000EFE7D /* plugins.cfg */,
+				09191E4E18137239000EFE7D /* resources.cfg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		091923A31813965C000EFE7D /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				097613F7181E77820091512A /* scenes */,
+				09DF2804181539EF0042E95A /* Audios */,
+				091923C41813965C000EFE7D /* materials */,
+				0919259E1813965E000EFE7D /* models */,
+				091925BD1813965E000EFE7D /* packs */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		091923C41813965C000EFE7D /* materials */ = {
+			isa = PBXGroup;
+			children = (
+				091924BA1813965E000EFE7D /* scripts */,
+			);
+			path = materials;
+			sourceTree = "<group>";
+		};
+		091924BA1813965E000EFE7D /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				09C2E5281827CABC00B4E3BD /* Buildings_5.material */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		0919259E1813965E000EFE7D /* models */ = {
+			isa = PBXGroup;
+			children = (
+				09C2E3E01827CAA700B4E3BD /* Buildingsbuildings_1pCube29.mesh */,
+				09C2E3E11827CAA700B4E3BD /* Buildingsbuildings_1pCube46.mesh */,
+				09C2E3E21827CAA700B4E3BD /* Buildingsbuildings_1pCube47.mesh */,
+				09C2E3E31827CAA700B4E3BD /* Buildingsbuildings_1pCube48.mesh */,
+				09C2E3E41827CAA700B4E3BD /* Buildingsbuildings_1pCube49.mesh */,
+				09C2E3E51827CAA700B4E3BD /* Buildingsbuildings_1pCube50.mesh */,
+				09C2E3E61827CAA700B4E3BD /* Buildingsbuildings_1pCube51.mesh */,
+				09C2E3E71827CAA700B4E3BD /* Buildingsbuildings_1pCube52.mesh */,
+				09C2E3E81827CAA700B4E3BD /* Buildingsbuildings_1pCube53.mesh */,
+				09C2E3E91827CAA700B4E3BD /* Buildingsbuildings_1pCube54.mesh */,
+				09C2E3EA1827CAA700B4E3BD /* Buildingsbuildings_1pCube58.mesh */,
+				09C2E3EB1827CAA700B4E3BD /* Buildingsbuildings_1pCube59.mesh */,
+				09C2E3EC1827CAA700B4E3BD /* Buildingsbuildings_1pCube60.mesh */,
+				09C2E3ED1827CAA700B4E3BD /* Buildingsbuildings_1pCube62.mesh */,
+				09C2E3EE1827CAA700B4E3BD /* Buildingsbuildings_1pCube64.mesh */,
+				09C2E3EF1827CAA700B4E3BD /* Buildingsbuildings_1pCube65.mesh */,
+				09C2E3F01827CAA700B4E3BD /* Buildingsbuildings_1pCube66.mesh */,
+				09C2E3F11827CAA700B4E3BD /* Buildingsbuildings_1pCube67.mesh */,
+				09C2E3F21827CAA700B4E3BD /* Buildingsbuildings_1pCube68.mesh */,
+				09C2E3F31827CAA700B4E3BD /* Buildingsbuildings_1pCube69.mesh */,
+				09C2E3F41827CAA700B4E3BD /* Buildingsbuildings_1pCube70.mesh */,
+				09C2E3F51827CAA800B4E3BD /* Buildingsbuildings_1pCube71.mesh */,
+				09C2E3F61827CAA800B4E3BD /* Buildingsbuildings_1pCube72.mesh */,
+				09C2E3F71827CAA800B4E3BD /* BuildingsPaperPlane.mesh */,
+				09C2E3F81827CAA800B4E3BD /* BuildingspCube1.mesh */,
+				09C2E3F91827CAA800B4E3BD /* BuildingspCube3.mesh */,
+				09C2E3FA1827CAA800B4E3BD /* BuildingspCube4.mesh */,
+				09C2E3FB1827CAA800B4E3BD /* BuildingspCube5.mesh */,
+				09C2E3FC1827CAA800B4E3BD /* BuildingspCube6.mesh */,
+				09C2E3FD1827CAA800B4E3BD /* BuildingspCube7.mesh */,
+				09C2E3FE1827CAA800B4E3BD /* BuildingspCube8.mesh */,
+				09C2E3FF1827CAA800B4E3BD /* BuildingspCube9.mesh */,
+				09C2E4001827CAA800B4E3BD /* BuildingspCube11.mesh */,
+				09C2E4011827CAA800B4E3BD /* BuildingspCube12.mesh */,
+				09C2E4021827CAA800B4E3BD /* BuildingspCube13.mesh */,
+				09C2E4031827CAA800B4E3BD /* BuildingspCube15.mesh */,
+				09C2E4041827CAA800B4E3BD /* BuildingspCube16.mesh */,
+				09C2E4051827CAA800B4E3BD /* BuildingspCube18.mesh */,
+				09C2E4061827CAA800B4E3BD /* BuildingspCube19.mesh */,
+				09C2E4071827CAA800B4E3BD /* BuildingspCube20.mesh */,
+				09C2E4081827CAA800B4E3BD /* BuildingspCube21.mesh */,
+				09C2E4091827CAA800B4E3BD /* BuildingspCube22.mesh */,
+				09C2E40A1827CAA800B4E3BD /* BuildingspCube23.mesh */,
+				09C2E40B1827CAA800B4E3BD /* BuildingspCube24.mesh */,
+				09C2E40C1827CAA800B4E3BD /* BuildingspCube26.mesh */,
+				09C2E40D1827CAA800B4E3BD /* BuildingspCube27.mesh */,
+				09C2E40E1827CAA800B4E3BD /* BuildingspCube28.mesh */,
+				09C2E40F1827CAA800B4E3BD /* BuildingspCube29.mesh */,
+				09C2E4101827CAA800B4E3BD /* BuildingspCube30.mesh */,
+				09C2E4111827CAA800B4E3BD /* BuildingspCube32.mesh */,
+				09C2E4121827CAA800B4E3BD /* BuildingspCube33.mesh */,
+				09C2E4131827CAA800B4E3BD /* BuildingspCube34.mesh */,
+				09C2E4141827CAA800B4E3BD /* BuildingspCube35.mesh */,
+				09C2E4151827CAA800B4E3BD /* BuildingspCube37.mesh */,
+				09C2E4161827CAA800B4E3BD /* BuildingspCube38.mesh */,
+				09C2E4171827CAA800B4E3BD /* BuildingspCube39.mesh */,
+				09C2E4181827CAA800B4E3BD /* BuildingspCube40.mesh */,
+				09C2E4191827CAA800B4E3BD /* BuildingspCube41.mesh */,
+				09C2E41A1827CAA800B4E3BD /* BuildingspCube42.mesh */,
+				09C2E41B1827CAA800B4E3BD /* BuildingspCube43.mesh */,
+				09C2E41C1827CAA800B4E3BD /* BuildingspCube44.mesh */,
+				09C2E41D1827CAA800B4E3BD /* BuildingspCube45.mesh */,
+				09C2E41E1827CAA800B4E3BD /* BuildingspCube46.mesh */,
+				09C2E41F1827CAA800B4E3BD /* BuildingspCube48.mesh */,
+				09C2E4201827CAA800B4E3BD /* BuildingspCube49.mesh */,
+				09C2E4211827CAA800B4E3BD /* BuildingspCube50.mesh */,
+				09C2E4221827CAA800B4E3BD /* BuildingspCube53.mesh */,
+				09C2E4231827CAA800B4E3BD /* BuildingspCube55.mesh */,
+				09C2E4241827CAA800B4E3BD /* BuildingspCube56.mesh */,
+				09C2E4251827CAA800B4E3BD /* BuildingspCube57.mesh */,
+				09C2E4261827CAA800B4E3BD /* BuildingspCube58.mesh */,
+				09C2E4271827CAA800B4E3BD /* BuildingspCube59.mesh */,
+				09C2E4281827CAA800B4E3BD /* BuildingspCube60.mesh */,
+				09C2E4291827CAA800B4E3BD /* BuildingspCube61.mesh */,
+				09C2E42A1827CAA800B4E3BD /* BuildingspCube62.mesh */,
+				09C2E42B1827CAA800B4E3BD /* BuildingspCube63.mesh */,
+				09C2E42C1827CAA800B4E3BD /* BuildingspCube65.mesh */,
+				09C2E42D1827CAA800B4E3BD /* BuildingspCube66.mesh */,
+				09C2E42E1827CAA800B4E3BD /* BuildingspCube70.mesh */,
+				09C2E42F1827CAA800B4E3BD /* BuildingspCube71.mesh */,
+				09C2E4301827CAA800B4E3BD /* BuildingspCube72.mesh */,
+				09C2E4311827CAA800B4E3BD /* BuildingspCube73.mesh */,
+				09C2E4321827CAA800B4E3BD /* BuildingspCube74.mesh */,
+				09C2E4331827CAA800B4E3BD /* BuildingspCube76.mesh */,
+				09C2E4341827CAA800B4E3BD /* BuildingspCube77.mesh */,
+				09C2E4351827CAA800B4E3BD /* BuildingspCube78.mesh */,
+				09C2E4361827CAA800B4E3BD /* BuildingspCube79.mesh */,
+				09C2E4371827CAA800B4E3BD /* BuildingspCube80.mesh */,
+				09C2E4381827CAA800B4E3BD /* BuildingspCube81.mesh */,
+				09C2E4391827CAA800B4E3BD /* BuildingspCube82.mesh */,
+				09C2E43A1827CAA800B4E3BD /* BuildingspCube83.mesh */,
+				09C2E43B1827CAA800B4E3BD /* BuildingspCube84.mesh */,
+				09C2E43C1827CAA800B4E3BD /* BuildingspCube85.mesh */,
+				09C2E43D1827CAA800B4E3BD /* BuildingspCube86.mesh */,
+				09C2E43E1827CAA800B4E3BD /* BuildingspCube87.mesh */,
+				09C2E43F1827CAA800B4E3BD /* BuildingspCube88.mesh */,
+				09C2E4401827CAA800B4E3BD /* BuildingspCube89.mesh */,
+				09C2E4411827CAA800B4E3BD /* BuildingspCube90.mesh */,
+				09C2E4421827CAA800B4E3BD /* BuildingspCube91.mesh */,
+				09C2E4431827CAA800B4E3BD /* BuildingspCube92.mesh */,
+				09C2E4441827CAA800B4E3BD /* BuildingspCube93.mesh */,
+				09C2E4451827CAA800B4E3BD /* BuildingspCube94.mesh */,
+				09C2E4461827CAA800B4E3BD /* BuildingspCylinder3.mesh */,
+				09C2E4471827CAA800B4E3BD /* BuildingspolySurface1.mesh */,
+				09C2E4481827CAA800B4E3BD /* BuildingspolySurface3.mesh */,
+				09C2E4491827CAA800B4E3BD /* BuildingspolySurface5.mesh */,
+				09C2E44A1827CAA800B4E3BD /* BuildingspolySurface6.mesh */,
+				09C2E44B1827CAA800B4E3BD /* BuildingspolySurface8.mesh */,
+				09C2E44C1827CAA800B4E3BD /* BuildingspolySurface10.mesh */,
+				09C2E44D1827CAA800B4E3BD /* BuildingspolySurface11.mesh */,
+				09C2E44E1827CAA800B4E3BD /* BuildingspolySurface12.mesh */,
+				09C2E44F1827CAA800B4E3BD /* BuildingspolySurface13.mesh */,
+				09C2E4501827CAA800B4E3BD /* BuildingspolySurface14.mesh */,
+				09C2E4511827CAA800B4E3BD /* BuildingspolySurface15.mesh */,
+				09C2E4521827CAA800B4E3BD /* BuildingspolySurface16.mesh */,
+				09C2E4531827CAA800B4E3BD /* BuildingspolySurface17.mesh */,
+				09C2E4541827CAA800B4E3BD /* BuildingspolySurface18.mesh */,
+				09C2E4551827CAA800B4E3BD /* BuildingspolySurface19.mesh */,
+				09C2E4561827CAA800B4E3BD /* BuildingspolySurface20.mesh */,
+				09C2E4571827CAA800B4E3BD /* BuildingspolySurface22.mesh */,
+				09C2E4581827CAA800B4E3BD /* BuildingspolySurface24.mesh */,
+				09C2E4591827CAA800B4E3BD /* BuildingspolySurface26.mesh */,
+				09C2E45A1827CAA800B4E3BD /* BuildingspolySurface28.mesh */,
+				09C2E45B1827CAA800B4E3BD /* BuildingspolySurface29.mesh */,
+				09C2E45C1827CAA800B4E3BD /* BuildingspolySurface30.mesh */,
+				09C2E45D1827CAA800B4E3BD /* BuildingspolySurface31.mesh */,
+				09C2E45E1827CAA800B4E3BD /* BuildingspolySurface32.mesh */,
+				09C2E45F1827CAA800B4E3BD /* BuildingspolySurface33.mesh */,
+				09C2E4601827CAA800B4E3BD /* BuildingspolySurface35.mesh */,
+				09C2E4611827CAA800B4E3BD /* BuildingspolySurface36.mesh */,
+				09C2E4621827CAA800B4E3BD /* BuildingspolySurface38.mesh */,
+				09C2E4631827CAA800B4E3BD /* BuildingspolySurface39.mesh */,
+				09C2E4641827CAA800B4E3BD /* BuildingspolySurface41.mesh */,
+				09C2E4651827CAA800B4E3BD /* BuildingspolySurface42.mesh */,
+				09C2E4661827CAA800B4E3BD /* BuildingspolySurface44.mesh */,
+				09C2E4671827CAA800B4E3BD /* BuildingspolySurface45.mesh */,
+				09C2E4681827CAA800B4E3BD /* BuildingspolySurface46.mesh */,
+				09C2E4691827CAA800B4E3BD /* BuildingspolySurface47.mesh */,
+				09C2E46A1827CAA800B4E3BD /* BuildingspolySurface49.mesh */,
+				09C2E46B1827CAA800B4E3BD /* BuildingspolySurface50.mesh */,
+				09C2E46C1827CAA900B4E3BD /* BuildingspolySurface52.mesh */,
+				09C2E46D1827CAA900B4E3BD /* BuildingspolySurface54.mesh */,
+				09C2E46E1827CAA900B4E3BD /* BuildingspolySurface56.mesh */,
+				09C2E46F1827CAA900B4E3BD /* BuildingspolySurface57.mesh */,
+				09C2E4701827CAA900B4E3BD /* BuildingspolySurface58.mesh */,
+				09C2E4711827CAA900B4E3BD /* BuildingspolySurface61.mesh */,
+				09C2E4721827CAA900B4E3BD /* BuildingspolySurface62.mesh */,
+				09C2E4731827CAA900B4E3BD /* BuildingspolySurface64.mesh */,
+				09C2E4741827CAA900B4E3BD /* BuildingspolySurface65.mesh */,
+				09C2E4751827CAA900B4E3BD /* BuildingspolySurface66.mesh */,
+				09C2E4761827CAA900B4E3BD /* BuildingspolySurface67.mesh */,
+				09C2E4771827CAA900B4E3BD /* BuildingspolySurface69.mesh */,
+				09C2E4781827CAA900B4E3BD /* BuildingspolySurface70.mesh */,
+				09C2E4791827CAA900B4E3BD /* BuildingspolySurface72.mesh */,
+				09C2E47A1827CAA900B4E3BD /* BuildingspolySurface73.mesh */,
+				09C2E47B1827CAA900B4E3BD /* BuildingspolySurface77.mesh */,
+				09C2E47C1827CAA900B4E3BD /* BuildingspolySurface78.mesh */,
+				09C2E47D1827CAA900B4E3BD /* BuildingspolySurface79.mesh */,
+				09C2E47E1827CAA900B4E3BD /* BuildingspolySurface80.mesh */,
+				09C2E47F1827CAA900B4E3BD /* BuildingspolySurface81.mesh */,
+				09C2E4801827CAA900B4E3BD /* BuildingspolySurface83.mesh */,
+				09C2E4811827CAA900B4E3BD /* BuildingspolySurface84.mesh */,
+				09C2E4821827CAA900B4E3BD /* BuildingspolySurface85.mesh */,
+				09C2E4831827CAA900B4E3BD /* BuildingspPlane1.mesh */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		091925BD1813965E000EFE7D /* packs */ = {
+			isa = PBXGroup;
+			children = (
+				091925C61813965E000EFE7D /* SdkTrays.zip */,
+			);
+			path = packs;
+			sourceTree = "<group>";
+		};
+		097613CB181E76E40091512A /* OpenSrcLib */ = {
+			isa = PBXGroup;
+			children = (
+				097613D0181E76E40091512A /* OgreMax */,
+			);
+			path = OpenSrcLib;
+			sourceTree = "<group>";
+		};
+		097613D0181E76E40091512A /* OgreMax */ = {
+			isa = PBXGroup;
+			children = (
+				097613D1181E76E40091512A /* OgreMaxModel.cpp */,
+				097613D2181E76E40091512A /* OgreMaxModel.hpp */,
+				097613D3181E76E40091512A /* OgreMaxPlatform.hpp */,
+				097613D4181E76E40091512A /* OgreMaxRenderWindowIterator.hpp */,
+				097613D5181E76E40091512A /* OgreMaxScene.cpp */,
+				097613D6181E76E40091512A /* OgreMaxScene.hpp */,
+				097613D7181E76E40091512A /* OgreMaxTypes.hpp */,
+				097613D8181E76E40091512A /* OgreMaxUtilities.cpp */,
+				097613D9181E76E40091512A /* OgreMaxUtilities.hpp */,
+				097613DA181E76E40091512A /* ProgressCalculator.cpp */,
+				097613DB181E76E40091512A /* ProgressCalculator.hpp */,
+				097613DC181E76E40091512A /* tinyxml */,
+				097613E7181E76E40091512A /* Version.cpp */,
+				097613E8181E76E40091512A /* Version.hpp */,
+			);
+			path = OgreMax;
+			sourceTree = "<group>";
+		};
+		097613DC181E76E40091512A /* tinyxml */ = {
+			isa = PBXGroup;
+			children = (
+				097613DF181E76E40091512A /* tinystr.cpp */,
+				097613E0181E76E40091512A /* tinystr.h */,
+				097613E1181E76E40091512A /* tinyxml.cpp */,
+				097613E2181E76E40091512A /* tinyxml.h */,
+				097613E3181E76E40091512A /* tinyxml2.cpp */,
+				097613E4181E76E40091512A /* tinyxml2.h */,
+				097613E5181E76E40091512A /* tinyxmlerror.cpp */,
+				097613E6181E76E40091512A /* tinyxmlparser.cpp */,
+			);
+			path = tinyxml;
+			sourceTree = "<group>";
+		};
+		097613F7181E77820091512A /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0966227018280130007AE454 /* Buildings_5.scene */,
+			);
+			path = scenes;
+			sourceTree = "<group>";
+		};
+		09DF2804181539EF0042E95A /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				09761590181E7F1F0091512A /* windBlowAudio.wav */,
+				0961B5201816311700E45F7E /* bgAudio.mp3 */,
+			);
+			name = Audios;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09191E1A18137238000EFE7D /* OgreFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09191E5218137239000EFE7D /* Build configuration list for PBXNativeTarget "OgreFinal" */;
+			buildPhases = (
+				09191E1618137238000EFE7D /* Sources */,
+				09191E1718137238000EFE7D /* Frameworks */,
+				09191E1818137238000EFE7D /* Resources */,
+				09191E1918137238000EFE7D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OgreFinal;
+			productName = OgreFinal;
+			productReference = 09191E1B18137238000EFE7D /* OgreFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09191E1218137238000EFE7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 09191E1518137238000EFE7D /* Build configuration list for PBXProject "OgreFinal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09191E1118137238000EFE7D;
+			productRefGroup = 09191E1C18137238000EFE7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09191E1A18137238000EFE7D /* OgreFinal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09191E1818137238000EFE7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C2E4E51827CAA900B4E3BD /* BuildingspCube90.mesh in Resources */,
+				09C2E4F91827CAA900B4E3BD /* BuildingspolySurface19.mesh in Resources */,
+				09C2E4F71827CAA900B4E3BD /* BuildingspolySurface17.mesh in Resources */,
+				09C2E4A81827CAA900B4E3BD /* BuildingspCube16.mesh in Resources */,
+				09C2E5071827CAA900B4E3BD /* BuildingspolySurface39.mesh in Resources */,
+				09C2E4E21827CAA900B4E3BD /* BuildingspCube87.mesh in Resources */,
+				09C2E4E11827CAA900B4E3BD /* BuildingspCube86.mesh in Resources */,
+				09C2E4D51827CAA900B4E3BD /* BuildingspCube73.mesh in Resources */,
+				09C2E4DC1827CAA900B4E3BD /* BuildingspCube81.mesh in Resources */,
+				09C2E4F21827CAA900B4E3BD /* BuildingspolySurface12.mesh in Resources */,
+				09C2E5111827CAA900B4E3BD /* BuildingspolySurface54.mesh in Resources */,
+				09C2E4E31827CAA900B4E3BD /* BuildingspCube88.mesh in Resources */,
+				09C2E4F01827CAA900B4E3BD /* BuildingspolySurface10.mesh in Resources */,
+				09C2E50F1827CAA900B4E3BD /* BuildingspolySurface50.mesh in Resources */,
+				09C2E5211827CAA900B4E3BD /* BuildingspolySurface79.mesh in Resources */,
+				09C2E4EF1827CAA900B4E3BD /* BuildingspolySurface8.mesh in Resources */,
+				09C2E4C11827CAA900B4E3BD /* BuildingspCube45.mesh in Resources */,
+				09C2E51B1827CAA900B4E3BD /* BuildingspolySurface69.mesh in Resources */,
+				09C2E4A61827CAA900B4E3BD /* BuildingspCube13.mesh in Resources */,
+				09C2E4FD1827CAA900B4E3BD /* BuildingspolySurface26.mesh in Resources */,
+				09C2E4CB1827CAA900B4E3BD /* BuildingspCube59.mesh in Resources */,
+				09C2E5271827CAA900B4E3BD /* BuildingspPlane1.mesh in Resources */,
+				09C2E5041827CAA900B4E3BD /* BuildingspolySurface35.mesh in Resources */,
+				09C2E4EC1827CAA900B4E3BD /* BuildingspolySurface3.mesh in Resources */,
+				09C2E4871827CAA900B4E3BD /* Buildingsbuildings_1pCube48.mesh in Resources */,
+				09C2E51A1827CAA900B4E3BD /* BuildingspolySurface67.mesh in Resources */,
+				09C2E51F1827CAA900B4E3BD /* BuildingspolySurface77.mesh in Resources */,
+				09C2E4B41827CAA900B4E3BD /* BuildingspCube30.mesh in Resources */,
+				09C2E4AF1827CAA900B4E3BD /* BuildingspCube24.mesh in Resources */,
+				09C2E5231827CAA900B4E3BD /* BuildingspolySurface81.mesh in Resources */,
+				09C2E48C1827CAA900B4E3BD /* Buildingsbuildings_1pCube53.mesh in Resources */,
+				09C2E4B81827CAA900B4E3BD /* BuildingspCube35.mesh in Resources */,
+				09C2E51D1827CAA900B4E3BD /* BuildingspolySurface72.mesh in Resources */,
+				09C2E4D11827CAA900B4E3BD /* BuildingspCube66.mesh in Resources */,
+				09C2E48A1827CAA900B4E3BD /* Buildingsbuildings_1pCube51.mesh in Resources */,
+				09C2E4FB1827CAA900B4E3BD /* BuildingspolySurface22.mesh in Resources */,
+				09C2E4B21827CAA900B4E3BD /* BuildingspCube28.mesh in Resources */,
+				09C2E4EA1827CAA900B4E3BD /* BuildingspCylinder3.mesh in Resources */,
+				091928731813965F000EFE7D /* SdkTrays.zip in Resources */,
+				09C2E4921827CAA900B4E3BD /* Buildingsbuildings_1pCube64.mesh in Resources */,
+				09C2E4B71827CAA900B4E3BD /* BuildingspCube34.mesh in Resources */,
+				09C2E4F81827CAA900B4E3BD /* BuildingspolySurface18.mesh in Resources */,
+				09C2E4AC1827CAA900B4E3BD /* BuildingspCube21.mesh in Resources */,
+				09C2E4C61827CAA900B4E3BD /* BuildingspCube53.mesh in Resources */,
+				09C2E4C91827CAA900B4E3BD /* BuildingspCube57.mesh in Resources */,
+				09C2E4BA1827CAA900B4E3BD /* BuildingspCube38.mesh in Resources */,
+				09C2E4E61827CAA900B4E3BD /* BuildingspCube91.mesh in Resources */,
+				09C2E49E1827CAA900B4E3BD /* BuildingspCube4.mesh in Resources */,
+				09C2E4DB1827CAA900B4E3BD /* BuildingspCube80.mesh in Resources */,
+				09C2E4C51827CAA900B4E3BD /* BuildingspCube50.mesh in Resources */,
+				09C2E4841827CAA900B4E3BD /* Buildingsbuildings_1pCube29.mesh in Resources */,
+				09C2E5141827CAA900B4E3BD /* BuildingspolySurface58.mesh in Resources */,
+				09191E2E18137239000EFE7D /* InfoPlist.strings in Resources */,
+				09C2E4F11827CAA900B4E3BD /* BuildingspolySurface11.mesh in Resources */,
+				09C2E4F31827CAA900B4E3BD /* BuildingspolySurface13.mesh in Resources */,
+				09C2E4BD1827CAA900B4E3BD /* BuildingspCube41.mesh in Resources */,
+				09C2E49F1827CAA900B4E3BD /* BuildingspCube5.mesh in Resources */,
+				09C2E4851827CAA900B4E3BD /* Buildingsbuildings_1pCube46.mesh in Resources */,
+				09C2E5031827CAA900B4E3BD /* BuildingspolySurface33.mesh in Resources */,
+				09C2E4931827CAA900B4E3BD /* Buildingsbuildings_1pCube65.mesh in Resources */,
+				09C2E51E1827CAA900B4E3BD /* BuildingspolySurface73.mesh in Resources */,
+				09C2E5011827CAA900B4E3BD /* BuildingspolySurface31.mesh in Resources */,
+				09C2E4A21827CAA900B4E3BD /* BuildingspCube8.mesh in Resources */,
+				09C2E50A1827CAA900B4E3BD /* BuildingspolySurface44.mesh in Resources */,
+				09C2E4C71827CAA900B4E3BD /* BuildingspCube55.mesh in Resources */,
+				09C2E4A91827CAA900B4E3BD /* BuildingspCube18.mesh in Resources */,
+				09191E4B18137239000EFE7D /* ogre.cfg in Resources */,
+				09C2E4D21827CAA900B4E3BD /* BuildingspCube70.mesh in Resources */,
+				09C2E5091827CAA900B4E3BD /* BuildingspolySurface42.mesh in Resources */,
+				09191E4F18137239000EFE7D /* resources.cfg in Resources */,
+				09C2E4C31827CAA900B4E3BD /* BuildingspCube48.mesh in Resources */,
+				09C2E4DD1827CAA900B4E3BD /* BuildingspCube82.mesh in Resources */,
+				09C2E4BF1827CAA900B4E3BD /* BuildingspCube43.mesh in Resources */,
+				09C2E4A11827CAA900B4E3BD /* BuildingspCube7.mesh in Resources */,
+				09C2E4D31827CAA900B4E3BD /* BuildingspCube71.mesh in Resources */,
+				09C2E4F51827CAA900B4E3BD /* BuildingspolySurface15.mesh in Resources */,
+				09C2E49D1827CAA900B4E3BD /* BuildingspCube3.mesh in Resources */,
+				09C2E4AE1827CAA900B4E3BD /* BuildingspCube23.mesh in Resources */,
+				09C2E4951827CAA900B4E3BD /* Buildingsbuildings_1pCube67.mesh in Resources */,
+				09C2E5261827CAA900B4E3BD /* BuildingspolySurface85.mesh in Resources */,
+				09C2E5161827CAA900B4E3BD /* BuildingspolySurface62.mesh in Resources */,
+				09C2E5181827CAA900B4E3BD /* BuildingspolySurface65.mesh in Resources */,
+				09C2E4941827CAA900B4E3BD /* Buildingsbuildings_1pCube66.mesh in Resources */,
+				09C2E4D01827CAA900B4E3BD /* BuildingspCube65.mesh in Resources */,
+				09C2E5291827CABC00B4E3BD /* Buildings_5.material in Resources */,
+				0961B5221816311700E45F7E /* bgAudio.mp3 in Resources */,
+				09C2E4D91827CAA900B4E3BD /* BuildingspCube78.mesh in Resources */,
+				09C2E4CD1827CAA900B4E3BD /* BuildingspCube61.mesh in Resources */,
+				09C2E4981827CAA900B4E3BD /* Buildingsbuildings_1pCube70.mesh in Resources */,
+				09C2E4B11827CAA900B4E3BD /* BuildingspCube27.mesh in Resources */,
+				09C2E4FE1827CAA900B4E3BD /* BuildingspolySurface28.mesh in Resources */,
+				09C2E4CC1827CAA900B4E3BD /* BuildingspCube60.mesh in Resources */,
+				09C2E50D1827CAA900B4E3BD /* BuildingspolySurface47.mesh in Resources */,
+				09C2E5001827CAA900B4E3BD /* BuildingspolySurface30.mesh in Resources */,
+				09C2E4A51827CAA900B4E3BD /* BuildingspCube12.mesh in Resources */,
+				09C2E4D41827CAA900B4E3BD /* BuildingspCube72.mesh in Resources */,
+				09C2E4C01827CAA900B4E3BD /* BuildingspCube44.mesh in Resources */,
+				09C2E4CE1827CAA900B4E3BD /* BuildingspCube62.mesh in Resources */,
+				09C2E4A41827CAA900B4E3BD /* BuildingspCube11.mesh in Resources */,
+				09C2E4F61827CAA900B4E3BD /* BuildingspolySurface16.mesh in Resources */,
+				09C2E5121827CAA900B4E3BD /* BuildingspolySurface56.mesh in Resources */,
+				09C2E4BE1827CAA900B4E3BD /* BuildingspCube42.mesh in Resources */,
+				09C2E5241827CAA900B4E3BD /* BuildingspolySurface83.mesh in Resources */,
+				09C2E4E81827CAA900B4E3BD /* BuildingspCube93.mesh in Resources */,
+				09C2E5081827CAA900B4E3BD /* BuildingspolySurface41.mesh in Resources */,
+				09C2E4F41827CAA900B4E3BD /* BuildingspolySurface14.mesh in Resources */,
+				09C2E4D61827CAA900B4E3BD /* BuildingspCube74.mesh in Resources */,
+				09C2E4AA1827CAA900B4E3BD /* BuildingspCube19.mesh in Resources */,
+				09C2E4861827CAA900B4E3BD /* Buildingsbuildings_1pCube47.mesh in Resources */,
+				09C2E4971827CAA900B4E3BD /* Buildingsbuildings_1pCube69.mesh in Resources */,
+				09C2E4BB1827CAA900B4E3BD /* BuildingspCube39.mesh in Resources */,
+				09C2E4DA1827CAA900B4E3BD /* BuildingspCube79.mesh in Resources */,
+				09C2E4A31827CAA900B4E3BD /* BuildingspCube9.mesh in Resources */,
+				09C2E4BC1827CAA900B4E3BD /* BuildingspCube40.mesh in Resources */,
+				09C2E50B1827CAA900B4E3BD /* BuildingspolySurface45.mesh in Resources */,
+				09C2E4961827CAA900B4E3BD /* Buildingsbuildings_1pCube68.mesh in Resources */,
+				09C2E4FA1827CAA900B4E3BD /* BuildingspolySurface20.mesh in Resources */,
+				09C2E4901827CAA900B4E3BD /* Buildingsbuildings_1pCube60.mesh in Resources */,
+				09C2E4FF1827CAA900B4E3BD /* BuildingspolySurface29.mesh in Resources */,
+				09C2E4CF1827CAA900B4E3BD /* BuildingspCube63.mesh in Resources */,
+				09C2E4E71827CAA900B4E3BD /* BuildingspCube92.mesh in Resources */,
+				09C2E4C81827CAA900B4E3BD /* BuildingspCube56.mesh in Resources */,
+				09761591181E7F1F0091512A /* windBlowAudio.wav in Resources */,
+				09C2E4B51827CAA900B4E3BD /* BuildingspCube32.mesh in Resources */,
+				09C2E5131827CAA900B4E3BD /* BuildingspolySurface57.mesh in Resources */,
+				09C2E4A01827CAA900B4E3BD /* BuildingspCube6.mesh in Resources */,
+				09C2E4DF1827CAA900B4E3BD /* BuildingspCube84.mesh in Resources */,
+				09C2E5151827CAA900B4E3BD /* BuildingspolySurface61.mesh in Resources */,
+				09C2E4A71827CAA900B4E3BD /* BuildingspCube15.mesh in Resources */,
+				09C2E4991827CAA900B4E3BD /* Buildingsbuildings_1pCube71.mesh in Resources */,
+				09C2E48B1827CAA900B4E3BD /* Buildingsbuildings_1pCube52.mesh in Resources */,
+				09C2E4CA1827CAA900B4E3BD /* BuildingspCube58.mesh in Resources */,
+				09C2E4881827CAA900B4E3BD /* Buildingsbuildings_1pCube49.mesh in Resources */,
+				09C2E4D71827CAA900B4E3BD /* BuildingspCube76.mesh in Resources */,
+				09C2E49C1827CAA900B4E3BD /* BuildingspCube1.mesh in Resources */,
+				09C2E51C1827CAA900B4E3BD /* BuildingspolySurface70.mesh in Resources */,
+				09C2E4891827CAA900B4E3BD /* Buildingsbuildings_1pCube50.mesh in Resources */,
+				09C2E4C41827CAA900B4E3BD /* BuildingspCube49.mesh in Resources */,
+				09C2E5171827CAA900B4E3BD /* BuildingspolySurface64.mesh in Resources */,
+				09C2E5061827CAA900B4E3BD /* BuildingspolySurface38.mesh in Resources */,
+				09C2E4AD1827CAA900B4E3BD /* BuildingspCube22.mesh in Resources */,
+				09C2E50E1827CAA900B4E3BD /* BuildingspolySurface49.mesh in Resources */,
+				09C2E4AB1827CAA900B4E3BD /* BuildingspCube20.mesh in Resources */,
+				09C2E4911827CAA900B4E3BD /* Buildingsbuildings_1pCube62.mesh in Resources */,
+				09C2E4B31827CAA900B4E3BD /* BuildingspCube29.mesh in Resources */,
+				09C2E5221827CAA900B4E3BD /* BuildingspolySurface80.mesh in Resources */,
+				09C2E5251827CAA900B4E3BD /* BuildingspolySurface84.mesh in Resources */,
+				09C2E4B61827CAA900B4E3BD /* BuildingspCube33.mesh in Resources */,
+				09C2E5201827CAA900B4E3BD /* BuildingspolySurface78.mesh in Resources */,
+				09C2E4FC1827CAA900B4E3BD /* BuildingspolySurface24.mesh in Resources */,
+				09C2E48D1827CAA900B4E3BD /* Buildingsbuildings_1pCube54.mesh in Resources */,
+				09C2E5191827CAA900B4E3BD /* BuildingspolySurface66.mesh in Resources */,
+				09C2E4C21827CAA900B4E3BD /* BuildingspCube46.mesh in Resources */,
+				09C2E4B91827CAA900B4E3BD /* BuildingspCube37.mesh in Resources */,
+				09C2E4E01827CAA900B4E3BD /* BuildingspCube85.mesh in Resources */,
+				09C2E50C1827CAA900B4E3BD /* BuildingspolySurface46.mesh in Resources */,
+				09C2E4EB1827CAA900B4E3BD /* BuildingspolySurface1.mesh in Resources */,
+				09C2E4B01827CAA900B4E3BD /* BuildingspCube26.mesh in Resources */,
+				09C2E49B1827CAA900B4E3BD /* BuildingsPaperPlane.mesh in Resources */,
+				09C2E48F1827CAA900B4E3BD /* Buildingsbuildings_1pCube59.mesh in Resources */,
+				092843BD1A050878003C64C7 /* OgreFinal-Info.plist in Resources */,
+				09C2E4DE1827CAA900B4E3BD /* BuildingspCube83.mesh in Resources */,
+				09C2E4D81827CAA900B4E3BD /* BuildingspCube77.mesh in Resources */,
+				09C2E5021827CAA900B4E3BD /* BuildingspolySurface32.mesh in Resources */,
+				09191E4D18137239000EFE7D /* plugins.cfg in Resources */,
+				0966227118280130007AE454 /* Buildings_5.scene in Resources */,
+				09C2E4E91827CAA900B4E3BD /* BuildingspCube94.mesh in Resources */,
+				09C2E4E41827CAA900B4E3BD /* BuildingspCube89.mesh in Resources */,
+				09C2E5051827CAA900B4E3BD /* BuildingspolySurface36.mesh in Resources */,
+				09C2E48E1827CAA900B4E3BD /* Buildingsbuildings_1pCube58.mesh in Resources */,
+				09C2E4ED1827CAA900B4E3BD /* BuildingspolySurface5.mesh in Resources */,
+				09C2E5101827CAA900B4E3BD /* BuildingspolySurface52.mesh in Resources */,
+				09C2E49A1827CAA900B4E3BD /* Buildingsbuildings_1pCube72.mesh in Resources */,
+				09C2E4EE1827CAA900B4E3BD /* BuildingspolySurface6.mesh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09191E1918137238000EFE7D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "# This shell script simply copies resources into their respective locations\nmkdir -p \"$BUILT_PRODUCTS_DIR/OgreFinal.app/Contents/Frameworks\"\nmkdir -p \"$BUILT_PRODUCTS_DIR/OgreFinal.app/Contents/Plugins\"\nditto \"$OGRE_SDK_ROOT/lib/release/Ogre.framework\" \"$BUILT_PRODUCTS_DIR/OgreFinal.app/Contents/Frameworks/Ogre.framework\"\nditto \"$OGRE_SDK_ROOT/lib/RenderSystem_GL.dylib\" \"$BUILT_PRODUCTS_DIR/OgreFinal.app/Contents/Plugins/\"\nditto \"$PROJECT_DIR/$PROJECT_NAME/media/\" \"$BUILT_PRODUCTS_DIR/OgreFinal.app/Contents/Resources/media/\"\nditto $PROJECT_DIR/$PROJECT_NAME/*.cfg \"$BUILT_PRODUCTS_DIR/OgreFinal.app/Contents/Resources/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09191E1618137238000EFE7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097613EE181E76E40091512A /* ProgressCalculator.cpp in Sources */,
+				097613F2181E76E40091512A /* tinyxml.cpp in Sources */,
+				097613F6181E76E40091512A /* Version.cpp in Sources */,
+				09F59B3618141F0800FC8EF6 /* OgreAudioPlayer.m in Sources */,
+				09191E3718137239000EFE7D /* OgreFramework.mm in Sources */,
+				097613EC181E76E40091512A /* OgreMaxScene.cpp in Sources */,
+				092195341814F4880034D831 /* PaperPlane.mm in Sources */,
+				09191E3018137239000EFE7D /* main.mm in Sources */,
+				097613ED181E76E40091512A /* OgreMaxUtilities.cpp in Sources */,
+				097613F3181E76E40091512A /* tinyxml2.cpp in Sources */,
+				097613EB181E76E40091512A /* OgreMaxModel.cpp in Sources */,
+				097613F1181E76E40091512A /* tinystr.cpp in Sources */,
+				097613F4181E76E40091512A /* tinyxmlerror.cpp in Sources */,
+				097613F5181E76E40091512A /* tinyxmlparser.cpp in Sources */,
+				09191E3418137239000EFE7D /* OgreDemoApp.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09191E2C18137239000EFE7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09191E2D18137239000EFE7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09191E5018137239000EFE7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(OGRE_SDK_ROOT)/lib/macosx/Release\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OgreFinal/OgreFinal-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(OGRE_SDK_ROOT)/include/OGRE\"",
+					"\"$(OGRE_SDK_ROOT)/Dependencies/include/OIS\"",
+					/usr/local/include,
+					"\"$(OGRE_SDK_ROOT)/include/OGRE/OSX\"",
+				);
+				INFOPLIST_FILE = "OgreFinal/OgreFinal-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"\"$(OGRE_SDK_ROOT)/lib\"",
+					"\"$(OGRE_SDK_ROOT)/Dependencies/lib/Debug\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OGRE_SDK_ROOT = /Developer/Ogre3d;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lOIS",
+					"-framework",
+					Ogre,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09191E5118137239000EFE7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "\"$(OGRE_SDK_ROOT)/lib/macosx/Release\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OgreFinal/OgreFinal-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(OGRE_SDK_ROOT)/include/OGRE\"",
+					"\"$(OGRE_SDK_ROOT)/Dependencies/include/OIS\"",
+					/usr/local/include,
+					"\"$(OGRE_SDK_ROOT)/include/OGRE/OSX\"",
+				);
+				INFOPLIST_FILE = "OgreFinal/OgreFinal-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"\"$(OGRE_SDK_ROOT)/lib\"",
+					"\"$(OGRE_SDK_ROOT)/Dependencies/lib/Release\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OGRE_SDK_ROOT = /Developer/Ogre3d;
+				OTHER_LDFLAGS = (
+					"-lOIS",
+					"-framework",
+					Ogre,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		09191E5318137239000EFE7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OGRE_SDK_ROOT = /Users/TangShi/Developer/OgreSDK;
+			};
+			name = Debug;
+		};
+		09191E5418137239000EFE7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OGRE_SDK_ROOT = /Users/TangShi/Developer/OgreSDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09191E1518137238000EFE7D /* Build configuration list for PBXProject "OgreFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09191E5018137239000EFE7D /* Debug */,
+				09191E5118137239000EFE7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09191E5218137239000EFE7D /* Build configuration list for PBXNativeTarget "OgreFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09191E5318137239000EFE7D /* Debug */,
+				09191E5418137239000EFE7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09191E1218137238000EFE7D /* Project object */;
+}

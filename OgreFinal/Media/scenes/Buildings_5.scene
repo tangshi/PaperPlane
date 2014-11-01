@@ -1,0 +1,2085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene formatVersion="1.0" upAxis="y" unitsPerMeter="100" unitType="centimeters" minOgreVersion="1.8" ogreMaxVersion="2.4.8" author="OgreMax Scene Exporter (www.ogremax.com)" application="Maya">
+    <environment>
+        <colourAmbient r="0.490196" g="0.745098" b="1"/>
+        <colourBackground r="0" g="0" b="0"/>
+        <clipping near="0" far="100000"/>
+        <shadows technique="stencilModulative" farDistance="2.25">
+            <colourShadow r="0.415686" g="0.709804" b="1"/>
+        </shadows>
+    </environment>
+    <nodes>
+        <node name="buildings">
+            <position x="0" y="0" z="0"/>
+            <scale x="1" y="1" z="1"/>
+            <rotation qx="0" qy="0" qz="0" qw="1"/>
+            <node name="polySurface6">
+                <position x="-3.72764" y="27.917" z="8.36976"/>
+                <scale x="3.22282" y="4.17885" z="3.22281"/>
+                <rotation qx="-0.00233969" qy="0.994911" qz="-0.00101957" qw="-0.100727"/>
+                <entity name="polySurface6" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface6.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface5">
+                <position x="-1.15895" y="3.94217" z="8.84259"/>
+                <scale x="3.22282" y="4.17885" z="3.22281"/>
+                <rotation qx="-0.00247044" qy="0.998566" qz="-0.000988476" qw="-0.0534711"/>
+                <entity name="polySurface5" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface5.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface3">
+                <position x="-3.64577" y="23.2035" z="8.15631"/>
+                <scale x="3.2228" y="4.17887" z="3.2228"/>
+                <rotation qx="0" qy="0.99965" qz="0" qw="-0.0264648"/>
+                <entity name="polySurface3" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface3.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface1">
+                <position x="-3.75693" y="3.87968" z="8.67996"/>
+                <scale x="3.2228" y="2.47396" z="3.2228"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="polySurface1" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface1.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface41">
+                <position x="13.2809" y="1.05595" z="-17.024"/>
+                <scale x="5.28919" y="2.1119" z="8.02149"/>
+                <rotation qx="0" qy="0.982538" qz="0" qw="0.186064"/>
+                <entity name="polySurface41" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface41.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface39">
+                <position x="13.2809" y="1.05595" z="-17.024"/>
+                <scale x="5.28919" y="2.1119" z="8.02149"/>
+                <rotation qx="0" qy="0.982538" qz="0" qw="0.186064"/>
+                <entity name="polySurface39" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface39.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface38">
+                <position x="13.2809" y="1.05595" z="-17.024"/>
+                <scale x="5.28919" y="2.1119" z="8.02149"/>
+                <rotation qx="0" qy="0.982538" qz="0" qw="0.186064"/>
+                <entity name="polySurface38" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface38.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface42">
+                <position x="13.2809" y="1.05595" z="-17.024"/>
+                <scale x="5.28919" y="2.1119" z="8.02149"/>
+                <rotation qx="0" qy="0.982538" qz="0" qw="0.186064"/>
+                <entity name="polySurface42" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface42.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface47">
+                <position x="13.2809" y="1.05595" z="-17.024"/>
+                <scale x="5.28919" y="2.1119" z="8.02149"/>
+                <rotation qx="0" qy="0.982538" qz="0" qw="0.186064"/>
+                <entity name="polySurface47" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface47.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface46">
+                <position x="13.2809" y="1.05595" z="-17.024"/>
+                <scale x="5.28919" y="2.1119" z="8.02149"/>
+                <rotation qx="0" qy="0.982538" qz="0" qw="0.186064"/>
+                <entity name="polySurface46" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface46.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface45">
+                <position x="13.2809" y="1.05595" z="-17.024"/>
+                <scale x="5.28919" y="2.1119" z="8.02149"/>
+                <rotation qx="0" qy="0.982538" qz="0" qw="0.186064"/>
+                <entity name="polySurface45" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface45.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface44">
+                <position x="13.2809" y="1.05595" z="-17.024"/>
+                <scale x="5.28919" y="2.1119" z="8.02149"/>
+                <rotation qx="0" qy="0.982538" qz="0" qw="0.186064"/>
+                <entity name="polySurface44" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface44.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface50">
+                <position x="13.2809" y="1.05595" z="-17.024"/>
+                <scale x="5.28919" y="2.1119" z="8.02149"/>
+                <rotation qx="0" qy="0.982538" qz="0" qw="0.186064"/>
+                <entity name="polySurface50" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface50.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface49">
+                <position x="13.2809" y="1.05595" z="-17.024"/>
+                <scale x="5.28919" y="2.1119" z="8.02149"/>
+                <rotation qx="0" qy="0.982538" qz="0" qw="0.186064"/>
+                <entity name="polySurface49" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface49.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube82">
+                <position x="30.2834" y="0.553016" z="-0.15543"/>
+                <scale x="1.10603" y="1.10603" z="1.56584"/>
+                <rotation qx="0" qy="0.576267" qz="0" qw="0.817262"/>
+                <entity name="pCube82" castShadows="true" receiveShadows="true" meshFile="BuildingspCube82.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube74">
+                <position x="32.2742" y="1.69223" z="-5.01017"/>
+                <scale x="3.2228" y="3.38445" z="3.2228"/>
+                <rotation qx="0" qy="0.907259" qz="0" qw="-0.420572"/>
+                <entity name="pCube74" castShadows="true" receiveShadows="true" meshFile="BuildingspCube74.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube73">
+                <position x="30.4694" y="3.26513" z="-1.25872"/>
+                <scale x="5.27015" y="3.70043" z="6.38298"/>
+                <rotation qx="0" qy="0.561542" qz="0" qw="0.827449"/>
+                <entity name="pCube73" castShadows="true" receiveShadows="true" meshFile="BuildingspCube73.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube72">
+                <position x="30.4694" y="3.26513" z="-1.25872"/>
+                <scale x="5.27015" y="3.70043" z="6.38298"/>
+                <rotation qx="0" qy="0.561542" qz="0" qw="0.827449"/>
+                <entity name="pCube72" castShadows="true" receiveShadows="true" meshFile="BuildingspCube72.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube81">
+                <position x="29.4792" y="0.553017" z="10.6431"/>
+                <scale x="1.10603" y="1.10603" z="1.56584"/>
+                <rotation qx="0" qy="0.590425" qz="0" qw="0.807093"/>
+                <entity name="pCube81" castShadows="true" receiveShadows="true" meshFile="BuildingspCube81.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube80">
+                <position x="47.2561" y="0.553017" z="10.7251"/>
+                <scale x="1.53278" y="1.10603" z="1.56584"/>
+                <rotation qx="0" qy="0.999246" qz="0" qw="0.0388226"/>
+                <entity name="pCube80" castShadows="true" receiveShadows="true" meshFile="BuildingspCube80.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube71">
+                <position x="50.3811" y="0.774692" z="16.2797"/>
+                <scale x="3.2228" y="1.13073" z="1.63045"/>
+                <rotation qx="0" qy="0.999401" qz="0" qw="0.0345939"/>
+                <entity name="pCube71" castShadows="true" receiveShadows="true" meshFile="BuildingspCube71.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube70">
+                <position x="58.4809" y="1.85863" z="1.93961"/>
+                <scale x="4.41876" y="3.3652" z="3.2228"/>
+                <rotation qx="0" qy="0.777053" qz="0" qw="-0.629435"/>
+                <entity name="pCube70" castShadows="true" receiveShadows="true" meshFile="BuildingspCube70.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface52">
+                <position x="14.7024" y="1.69223" z="3.03285"/>
+                <scale x="3.2228" y="3.38445" z="3.2228"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="polySurface52" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface52.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface54">
+                <position x="14.7024" y="1.69223" z="3.03285"/>
+                <scale x="3.2228" y="3.38445" z="3.2228"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="polySurface54" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface54.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface56">
+                <position x="14.7024" y="1.69223" z="3.03285"/>
+                <scale x="3.2228" y="3.38445" z="3.2228"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="polySurface56" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface56.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface58">
+                <position x="14.7024" y="1.69223" z="3.03285"/>
+                <scale x="3.2228" y="3.38445" z="3.2228"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="polySurface58" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface58.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface57">
+                <position x="14.7024" y="1.69223" z="3.03285"/>
+                <scale x="3.2228" y="3.38445" z="3.2228"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="polySurface57" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface57.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface10">
+                <position x="44.0488612" y="1.658013" z="6.780225"/>
+                <scale x="4.87314" y="2.32669" z="19.2119"/>
+                <rotation qx="0" qy="0.672871" qz="0" qw="0.73976"/>
+                <entity name="polySurface10" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface10.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface13">
+                <position x="43.8125" y="7.74874" z="7.451338"/>
+                <scale x="4.87314" y="2.32669" z="19.2119"/>
+                <rotation qx="0" qy="0.672871" qz="0" qw="0.73976"/>
+                <entity name="polySurface13" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface13.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface12">
+                <position x="44.212499" y="7.03104" z="7.36183100"/>
+                <scale x="4.87314" y="2.32669" z="19.2119"/>
+                <rotation qx="0" qy="0.672871" qz="0" qw="0.73976"/>
+                <entity name="polySurface12" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface12.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface11">
+                <position x="44.0125" y="1.16335" z="6.99269"/>
+                <scale x="4.87314" y="2.32669" z="19.2119"/>
+                <rotation qx="0" qy="0.672871" qz="0" qw="0.73976"/>
+                <entity name="polySurface11" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface11.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface73">
+                <position x="25.2583" y="1.69223" z="10.9833"/>
+                <scale x="5.76541" y="3.38445" z="10.2986"/>
+                <rotation qx="0" qy="0.989247" qz="0" qw="0.146254"/>
+                <entity name="polySurface73" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface73.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface72">
+                <position x="25.2583" y="1.69223" z="10.9833"/>
+                <scale x="5.76541" y="3.38445" z="10.2986"/>
+                <rotation qx="0" qy="0.989247" qz="0" qw="0.146254"/>
+                <entity name="polySurface72" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface72.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface77">
+                <position x="25.2583" y="1.69223" z="10.9833"/>
+                <scale x="5.76541" y="3.38445" z="10.2986"/>
+                <rotation qx="0" qy="0.989247" qz="0" qw="0.146254"/>
+                <entity name="polySurface77" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface77.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface81">
+                <position x="25.2583" y="1.69223" z="10.9833"/>
+                <scale x="5.76541" y="3.38445" z="10.2986"/>
+                <rotation qx="0" qy="0.989247" qz="0" qw="0.146254"/>
+                <entity name="polySurface81" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface81.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface80">
+                <position x="25.2583" y="1.69223" z="10.9833"/>
+                <scale x="5.76541" y="3.38445" z="10.2986"/>
+                <rotation qx="0" qy="0.989247" qz="0" qw="0.146254"/>
+                <entity name="polySurface80" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface80.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface79">
+                <position x="25.2583" y="1.69223" z="10.9833"/>
+                <scale x="5.76541" y="3.38445" z="10.2986"/>
+                <rotation qx="0" qy="0.989247" qz="0" qw="0.146254"/>
+                <entity name="polySurface79" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface79.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface78">
+                <position x="25.2583" y="1.69223" z="10.9833"/>
+                <scale x="5.76541" y="3.38445" z="10.2986"/>
+                <rotation qx="0" qy="0.989247" qz="0" qw="0.146254"/>
+                <entity name="polySurface78" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface78.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube79">
+                <position x="-7.6572" y="0.559992" z="15.4264"/>
+                <scale x="1.72519" y="1.10603" z="1.56584"/>
+                <rotation qx="-0.00252622" qy="0.554678" qz="0.00264668" qw="0.832057"/>
+                <entity name="pCube79" castShadows="true" receiveShadows="true" meshFile="BuildingspCube79.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube66">
+                <position x="6.7742" y="0.56187" z="10.6098"/>
+                <scale x="1.10603" y="1.10603" z="2.31497"/>
+                <rotation qx="-0.00167212" qy="0.295998" qz="0.00325434" qw="0.955181"/>
+                <entity name="pCube66" castShadows="true" receiveShadows="true" meshFile="BuildingspCube66.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube65">
+                <position x="9.81379" y="0.559683" z="18.8882"/>
+                <scale x="2.17681" y="1.10603" z="1.56584"/>
+                <rotation qx="-0.00265076" qy="0.594108" qz="0.00252194" qw="0.804377"/>
+                <entity name="pCube65" castShadows="true" receiveShadows="true" meshFile="BuildingspCube65.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube63">
+                <position x="10.4668" y="0.557553" z="16.7011"/>
+                <scale x="1.10603" y="1.10603" z="1.11469"/>
+                <rotation qx="-0.00265076" qy="0.594108" qz="0.00252194" qw="0.804377"/>
+                <entity name="pCube63" castShadows="true" receiveShadows="true" meshFile="BuildingspCube63.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube62">
+                <position x="10.9033" y="0.559187" z="15.2321"/>
+                <scale x="1.10603" y="1.10603" z="1.56584"/>
+                <rotation qx="-0.00265076" qy="0.594108" qz="0.00252194" qw="0.804377"/>
+                <entity name="pCube62" castShadows="true" receiveShadows="true" meshFile="BuildingspCube62.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube61">
+                <position x="11.2941" y="0.559187" z="13.9752"/>
+                <scale x="1.10603" y="1.10603" z="1.56584"/>
+                <rotation qx="-0.00265076" qy="0.594108" qz="0.00252194" qw="0.804377"/>
+                <entity name="pCube61" castShadows="true" receiveShadows="true" meshFile="BuildingspCube61.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube60">
+                <position x="11.7994" y="0.401043" z="13.0056"/>
+                <scale x="0.793236" y="0.793236" z="1.12301"/>
+                <rotation qx="-0.00265076" qy="0.594108" qz="0.00252194" qw="0.804377"/>
+                <entity name="pCube60" castShadows="true" receiveShadows="true" meshFile="BuildingspCube60.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube58">
+                <position x="11.9471" y="0.559187" z="11.7881"/>
+                <scale x="1.10603" y="1.10603" z="1.56584"/>
+                <rotation qx="-0.00265076" qy="0.594108" qz="0.00252194" qw="0.804377"/>
+                <entity name="pCube58" castShadows="true" receiveShadows="true" meshFile="BuildingspCube58.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube57">
+                <position x="12.517" y="0.559188" z="20.9567"/>
+                <scale x="1.10603" y="1.10603" z="1.56584"/>
+                <rotation qx="-0.00265076" qy="0.594108" qz="0.00252194" qw="0.804377"/>
+                <entity name="pCube57" castShadows="true" receiveShadows="true" meshFile="BuildingspCube57.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube78">
+                <position x="-4.97027" y="0.399931" z="13.0056"/>
+                <scale x="0.793236" y="0.793236" z="1.12301"/>
+                <rotation qx="-0.00365765" qy="0.988878" qz="-9.10871e-005" qw="0.148683"/>
+                <entity name="pCube78" castShadows="true" receiveShadows="true" meshFile="BuildingspCube78.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube77">
+                <position x="-4.82263" y="0.559187" z="11.7881"/>
+                <scale x="1.10603" y="1.10603" z="1.56584"/>
+                <rotation qx="-0.00265076" qy="0.594108" qz="0.00252194" qw="0.804377"/>
+                <entity name="pCube77" castShadows="true" receiveShadows="true" meshFile="BuildingspCube77.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface26">
+                <position x="16.7463" y="1.25325" z="12.9791"/>
+                <scale x="7.62208" y="2.5065" z="5.95701"/>
+                <rotation qx="0" qy="0.989696" qz="0" qw="0.143184"/>
+                <entity name="polySurface26" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface26.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface28">
+                <position x="16.7463" y="1.25325" z="12.9791"/>
+                <scale x="7.62208" y="2.5065" z="5.95701"/>
+                <rotation qx="0" qy="0.989696" qz="0" qw="0.143184"/>
+                <entity name="polySurface28" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface28.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface30">
+                <position x="16.7463" y="1.25325" z="12.9791"/>
+                <scale x="7.62208" y="2.5065" z="5.95701"/>
+                <rotation qx="0" qy="0.989696" qz="0" qw="0.143184"/>
+                <entity name="polySurface30" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface30.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface29">
+                <position x="16.7463" y="1.25325" z="12.9791"/>
+                <scale x="7.62208" y="2.5065" z="5.95701"/>
+                <rotation qx="0" qy="0.989696" qz="0" qw="0.143184"/>
+                <entity name="polySurface29" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface29.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube53">
+                <position x="3.06563" y="2.65092" z="5.43703"/>
+                <scale x="3.2228" y="5.30184" z="3.2228"/>
+                <rotation qx="0" qy="0.97474" qz="0" qw="0.223342"/>
+                <entity name="pCube53" castShadows="true" receiveShadows="true" meshFile="BuildingspCube53.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface64">
+                <position x="7.30689" y="1.85022" z="-2.38331"/>
+                <scale x="5.27015" y="3.70043" z="6.38298"/>
+                <rotation qx="0" qy="0.996587" qz="0" qw="-0.0825459"/>
+                <entity name="polySurface64" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface64.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface66">
+                <position x="7.30689" y="1.85022" z="-2.38331"/>
+                <scale x="5.27015" y="3.70043" z="6.38298"/>
+                <rotation qx="0" qy="0.996587" qz="0" qw="-0.0825459"/>
+                <entity name="polySurface66" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface66.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface65">
+                <position x="7.30689" y="1.85022" z="-2.38331"/>
+                <scale x="5.27015" y="3.70043" z="6.38298"/>
+                <rotation qx="0" qy="0.996587" qz="0" qw="-0.0825459"/>
+                <entity name="polySurface65" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface65.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface62">
+                <position x="7.30689" y="1.85022" z="-2.38331"/>
+                <scale x="5.27015" y="3.70043" z="6.38298"/>
+                <rotation qx="0" qy="0.996587" qz="0" qw="-0.0825459"/>
+                <entity name="polySurface62" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface62.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface61">
+                <position x="7.30689" y="1.85022" z="-2.38331"/>
+                <scale x="5.27015" y="3.70043" z="6.38298"/>
+                <rotation qx="0" qy="0.996587" qz="0" qw="-0.0825459"/>
+                <entity name="polySurface61" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface61.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+
+
+            <node name="polySurface22">
+                <position x="2.92039" y="2.10014" z="-5.12765"/>
+                <scale x="3.2228" y="4.20028" z="7.77447"/>
+                <rotation qx="0" qy="0.978352" qz="0" qw="0.206949"/>
+                <entity name="polySurface22" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface22.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface24">
+                <position x="2.92039" y="2.10014" z="-5.12765"/>
+                <scale x="3.2228" y="4.20028" z="7.77447"/>
+                <rotation qx="0" qy="0.978352" qz="0" qw="0.206949"/>
+                <entity name="polySurface24" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface24.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface67">
+                <position x="2.92039" y="2.10014" z="-5.12765"/>
+                <scale x="3.2228" y="4.20028" z="7.77447"/>
+                <rotation qx="0" qy="0.978352" qz="0" qw="0.206949"/>
+                <entity name="polySurface67" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface67.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface70">
+                <position x="2.92039" y="2.10014" z="-5.12765"/>
+                <scale x="3.2228" y="4.20028" z="7.77447"/>
+                <rotation qx="0" qy="0.978352" qz="0" qw="0.206949"/>
+                <entity name="polySurface70" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface70.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface69">
+                <position x="2.92039" y="2.10014" z="-5.12765"/>
+                <scale x="3.2228" y="4.20028" z="7.77447"/>
+                <rotation qx="0" qy="0.978352" qz="0" qw="0.206949"/>
+                <entity name="polySurface69" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface69.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube50">
+                <position x="-11.2287" y="0.61309" z="21.5003"/>
+                <scale x="3.2228" y="1.22618" z="3.2228"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube50" castShadows="true" receiveShadows="true" meshFile="BuildingspCube50.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube94">
+                <position x="-12.8652" y="0.396619" z="18.4215"/>
+                <scale x="0.793236" y="0.793236" z="1.12301"/>
+                <rotation qx="0" qy="0.843672" qz="0" qw="-0.536858"/>
+                <entity name="pCube94" castShadows="true" receiveShadows="true" meshFile="BuildingspCube94.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube76">
+                <position x="-13.8922" y="0.553017" z="17.9414"/>
+                <scale x="1.10603" y="1.10603" z="1.56584"/>
+                <rotation qx="0" qy="0.976183" qz="0" qw="0.21695"/>
+                <entity name="pCube76" castShadows="true" receiveShadows="true" meshFile="BuildingspCube76.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube49">
+                <position x="-0.613283" y="1.6114" z="12.8482"/>
+                <scale x="3.2228" y="3.2228" z="3.2228"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube49" castShadows="true" receiveShadows="true" meshFile="BuildingspCube49.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube46">
+                <position x="-11.9016" y="7.24713" z="-48.9422"/>
+                <scale x="6.70139" y="14.4943" z="3.2228"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube46" castShadows="true" receiveShadows="true" meshFile="BuildingspCube46.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube43">
+                <position x="29.1738" y="2.28874" z="19.8832"/>
+                <scale x="3.2228" y="4.57749" z="5.15891"/>
+                <rotation qx="0" qy="0.834292" qz="0" qw="-0.551322"/>
+                <entity name="pCube43" castShadows="true" receiveShadows="true" meshFile="BuildingspCube43.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube42">
+                <position x="33.135" y="4.53968" z="15.051"/>
+                <scale x="3.2228" y="9.07935" z="3.2228"/>
+                <rotation qx="0" qy="0.959899" qz="0" qw="0.280345"/>
+                <entity name="pCube42" castShadows="true" receiveShadows="true" meshFile="BuildingspCube42.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube41">
+                <position x="15.202" y="8.11845" z="-24.567"/>
+                <scale x="4.23213" y="16.2369" z="3.2228"/>
+                <rotation qx="0" qy="0.985719" qz="0" qw="0.168399"/>
+                <entity name="pCube41" castShadows="true" receiveShadows="true" meshFile="BuildingspCube41.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube40">
+                <position x="58.037" y="6.67804" z="13.3606"/>
+                <scale x="3.2228" y="13.3561" z="5.29897"/>
+                <rotation qx="0" qy="0.973328" qz="0" qw="0.229417"/>
+                <entity name="pCube40" castShadows="true" receiveShadows="true" meshFile="BuildingspCube40.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube39">
+                <position x="37.691" y="2.89135" z="11.467"/>
+                <scale x="3.2228" y="5.7827" z="3.2228"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube39" castShadows="true" receiveShadows="true" meshFile="BuildingspCube39.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube38">
+                <position x="37.9506" y="3.2114" z="19.8832"/>
+                <scale x="3.2228" y="6.42281" z="3.2228"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube38" castShadows="true" receiveShadows="true" meshFile="BuildingspCube38.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube37">
+                <position x="45.2793" y="7.04391" z="19.7702"/>
+                <scale x="5.58431" y="14.0878" z="3.2228"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube37" castShadows="true" receiveShadows="true" meshFile="BuildingspCube37.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface32">
+                <position x="22.8608" y="10.7229" z="18.8665"/>
+                <scale x="4.74147" y="21.1552" z="3.2228"/>
+                <rotation qx="-0.010614" qy="-0.800332" qz="-0.00633535" qw="0.59943"/>
+                <entity name="polySurface32" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface32.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface31">
+                <position x="22.8608" y="10.7229" z="18.8665"/>
+                <scale x="4.74147" y="21.1552" z="3.2228"/>
+                <rotation qx="-0.010614" qy="-0.800332" qz="-0.00633535" qw="0.59943"/>
+                <entity name="polySurface31" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface31.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube34">
+                <position x="12.7732" y="5.16551" z="-8.71129"/>
+                <scale x="3.2228" y="10.331" z="3.2228"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube34" castShadows="true" receiveShadows="true" meshFile="BuildingspCube34.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube33">
+                <position x="4.86614" y="7.13422" z="-13.0487"/>
+                <scale x="3.2228" y="14.2684" z="3.2228"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube33" castShadows="true" receiveShadows="true" meshFile="BuildingspCube33.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube32">
+                <position x="53.8892" y="13.3193" z="17.8787"/>
+                <scale x="5.02779" y="26.6386" z="5.02779"/>
+                <rotation qx="0" qy="0.98334" qz="0" qw="0.181774"/>
+                <entity name="pCube32" castShadows="true" receiveShadows="true" meshFile="BuildingspCube32.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface83">
+                <position x="7.54098" y="5.05883" z="-49.9082"/>
+                <scale x="4.9134" y="10.1177" z="3.2228"/>
+                <rotation qx="0" qy="0.999466" qz="0" qw="-0.0326716"/>
+                <entity name="polySurface83" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface83.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface85">
+                <position x="7.54098" y="5.05883" z="-49.9082"/>
+                <scale x="4.9134" y="10.1177" z="3.2228"/>
+                <rotation qx="0" qy="0.999466" qz="0" qw="-0.0326716"/>
+                <entity name="polySurface85" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface85.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface84">
+                <position x="7.54098" y="5.05883" z="-49.9082"/>
+                <scale x="4.9134" y="10.1177" z="3.2228"/>
+                <rotation qx="0" qy="0.999466" qz="0" qw="-0.0326716"/>
+                <entity name="polySurface84" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface84.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube30">
+                <position x="20.7504" y="7.35195" z="-22.1262"/>
+                <scale x="6.25487" y="14.7039" z="3.2228"/>
+                <rotation qx="0" qy="0.952667" qz="0" qw="0.304017"/>
+                <entity name="pCube30" castShadows="true" receiveShadows="true" meshFile="BuildingspCube30.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube29">
+                <position x="6.13718" y="7.24713" z="-24.3728"/>
+                <scale x="3.2228" y="14.4943" z="3.2228"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube29" castShadows="true" receiveShadows="true" meshFile="BuildingspCube29.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube28">
+                <position x="20.622" y="10.2964" z="-15.1139"/>
+                <scale x="4.58888" y="20.5928" z="4.58888"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube28" castShadows="true" receiveShadows="true" meshFile="BuildingspCube28.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube27">
+                <position x="-9.50554" y="0.852306" z="-3.78213"/>
+                <scale x="3.2228" y="1.70461" z="5.13369"/>
+                <rotation qx="0" qy="0.993916" qz="0" qw="0.110142"/>
+                <entity name="pCube27" castShadows="true" receiveShadows="true" meshFile="BuildingspCube27.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube26">
+                <position x="-13.5229" y="1.37469" z="2.52619"/>
+                <scale x="3.61832" y="2.74938" z="10.4905"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube26" castShadows="true" receiveShadows="true" meshFile="BuildingspCube26.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface20">
+                <position x="-12.6568" y="1.48873" z="-6.32536"/>
+                <scale x="4.28527" y="2.97746" z="4.99878"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="polySurface20" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface20.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface19">
+                <position x="-12.6568" y="1.48873" z="-6.32536"/>
+                <scale x="4.28527" y="2.97746" z="4.99878"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="polySurface19" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface19.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface18">
+                <position x="-12.6568" y="1.48873" z="-6.32536"/>
+                <scale x="4.28527" y="2.97746" z="4.99878"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="polySurface18" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface18.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube19">
+                <position x="-14.037" y="4.55544" z="-11.6463"/>
+                <scale x="3.59217" y="9.11087" z="2.21928"/>
+                <rotation qx="0" qy="0.714562" qz="0" qw="0.699572"/>
+                <entity name="pCube19" castShadows="true" receiveShadows="true" meshFile="BuildingspCube19.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube20">
+                <position x="-10.5673" y="4.55544" z="-11.7199"/>
+                <scale x="3.59217" y="9.11087" z="2.21928"/>
+                <rotation qx="0" qy="0.714562" qz="0" qw="0.699572"/>
+                <entity name="pCube20" castShadows="true" receiveShadows="true" meshFile="BuildingspCube20.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube23">
+                <position x="17.3438" y="6.77718" z="-4.72076"/>
+                <scale x="1.05331" y="13.5544" z="3.74498"/>
+                <rotation qx="0" qy="0.976046" qz="0" qw="0.217564"/>
+                <entity name="pCube23" castShadows="true" receiveShadows="true" meshFile="BuildingspCube23.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube21">
+                <position x="16.4554" y="8.76525" z="-5.13751"/>
+                <scale x="1.05331" y="17.5305" z="3.74498"/>
+                <rotation qx="0" qy="0.976046" qz="0" qw="0.217564"/>
+                <entity name="pCube21" castShadows="true" receiveShadows="true" meshFile="BuildingspCube21.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube22">
+                <position x="15.4315" y="6.77718" z="-5.61784"/>
+                <scale x="1.05331" y="13.5544" z="3.74498"/>
+                <rotation qx="0" qy="0.976046" qz="0" qw="0.217564"/>
+                <entity name="pCube22" castShadows="true" receiveShadows="true" meshFile="BuildingspCube22.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="blueBuilding">
+                <position x="-5.24641" y="9.00014" z="-7.86513"/>
+                <scale x="3.2228" y="18.0003" z="2.07267"/>
+                <rotation qx="0" qy="0.907076" qz="0" qw="0.420968"/>
+                <entity name="blueBuilding" castShadows="true" receiveShadows="true" meshFile="BuildingspCube18.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambertBlue"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface17">
+                <position x="9.36972" y="8.50977" z="8.95542"/>
+                <scale x="4.64264" y="17.0195" z="3.2228"/>
+                <rotation qx="0" qy="0.957002" qz="0" qw="-0.29008"/>
+                <entity name="polySurface17" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface17.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface16">
+                <position x="9.36972" y="8.50977" z="8.95542"/>
+                <scale x="4.64264" y="17.0195" z="3.2228"/>
+                <rotation qx="0" qy="0.957002" qz="0" qw="-0.29008"/>
+                <entity name="polySurface16" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface16.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface15">
+                <position x="9.36972" y="8.50977" z="8.95542"/>
+                <scale x="4.64264" y="17.0195" z="3.2228"/>
+                <rotation qx="0" qy="0.957002" qz="0" qw="-0.29008"/>
+                <entity name="polySurface15" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface15.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface14">
+                <position x="9.36972" y="8.50977" z="8.95542"/>
+                <scale x="4.64264" y="17.0195" z="3.2228"/>
+                <rotation qx="0" qy="0.957002" qz="0" qw="-0.29008"/>
+                <entity name="polySurface14" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface14.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube16">
+                <position x="10.3613" y="8.13454" z="3.88111"/>
+                <scale x="3.2228" y="16.2691" z="3.2228"/>
+                <rotation qx="0" qy="0.758219" qz="0" qw="0.652"/>
+                <entity name="pCube16" castShadows="true" receiveShadows="true" meshFile="BuildingspCube16.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube15">
+                <position x="-0.868085" y="8.50977" z="-6.07726"/>
+                <scale x="3.65213" y="17.0195" z="3.2228"/>
+                <rotation qx="0" qy="0.542281" qz="0" qw="0.840197"/>
+                <entity name="pCube15" castShadows="true" receiveShadows="true" meshFile="BuildingspCube15.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface8">
+                <position x="-8.87246" y="1.16335" z="7.29699"/>
+                <scale x="4.87314" y="2.32669" z="19.2119"/>
+                <rotation qx="0" qy="0.971206" qz="0" qw="0.238243"/>
+                <entity name="polySurface8" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface8.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface36">
+                <position x="-8.87246" y="1.16335" z="7.29699"/>
+                <scale x="4.87314" y="2.32669" z="19.2119"/>
+                <rotation qx="0" qy="0.971206" qz="0" qw="0.238243"/>
+                <entity name="polySurface36" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface36.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface35">
+                <position x="-8.87246" y="1.16335" z="7.29699"/>
+                <scale x="4.87314" y="2.32669" z="19.2119"/>
+                <rotation qx="0" qy="0.971206" qz="0" qw="0.238243"/>
+                <entity name="polySurface35" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface35.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="polySurface33">
+                <position x="-8.87246" y="1.16335" z="7.29699"/>
+                <scale x="4.87314" y="2.32669" z="19.2119"/>
+                <rotation qx="0" qy="0.971206" qz="0" qw="0.238243"/>
+                <entity name="polySurface33" castShadows="true" receiveShadows="true" meshFile="BuildingspolySurface33.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube13">
+                <position x="25.1248" y="1.13467" z="-8.64942"/>
+                <scale x="3.2228" y="2.26933" z="1.6438"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube13" castShadows="true" receiveShadows="true" meshFile="BuildingspCube13.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube11">
+                <position x="27.633" y="1.14467" z="-10.8346"/>
+                <scale x="3.63386" y="2.28934" z="2.05135"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube11" castShadows="true" receiveShadows="true" meshFile="BuildingspCube11.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube12">
+                <position x="28.3664" y="3.25175" z="-8.54062"/>
+                <scale x="3.63386" y="6.5035" z="2.05135"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube12" castShadows="true" receiveShadows="true" meshFile="BuildingspCube12.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube9">
+                <position x="41.7767" y="1.6114" z="-6.1898"/>
+                <scale x="3.2228" y="3.2228" z="3.2228"/>
+                <rotation qx="0" qy="0.956098" qz="0" qw="0.293048"/>
+                <entity name="pCube9" castShadows="true" receiveShadows="true" meshFile="BuildingspCube9.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="redBuilding">
+                <position x="45.8819" y="34.0792" z="-0.424319"/>
+                <scale x="3.2228" y="3.2228" z="1.20732"/>
+                <rotation qx="0" qy="0.966502" qz="0" qw="-0.256658"/>
+                <entity name="redBuilding" castShadows="true" receiveShadows="true" meshFile="BuildingspCylinder3.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambertRed"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="greenBuilding">
+                <position x="34.6502" y="8.73295" z="-43.91"/>
+                <scale x="2.0935" y="17.8873" z="2.0935"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="greenBuilding" castShadows="true" receiveShadows="true" meshFile="BuildingspCube8.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambertGreen"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube6">
+                <position x="27.1375" y="0.553017" z="3.18521"/>
+                <scale x="1.10603" y="1.10603" z="1.56584"/>
+                <rotation qx="0" qy="0.986799" qz="0" qw="0.161947"/>
+                <entity name="pCube6" castShadows="true" receiveShadows="true" meshFile="BuildingspCube6.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube4">
+                <position x="32.087" y="3.58535" z="0.713165"/>
+                <scale x="3.93095" y="7.17071" z="4.62103"/>
+                <rotation qx="0" qy="0.818072" qz="0" qw="-0.575116"/>
+                <entity name="pCube4" castShadows="true" receiveShadows="true" meshFile="BuildingspCube4.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube3">
+                <position x="38.0918" y="5.17721" z="-0.511181"/>
+                <scale x="4.41876" y="8.25851" z="3.2228"/>
+                <rotation qx="0" qy="0.990064" qz="0" qw="-0.140616"/>
+                <entity name="pCube3" castShadows="true" receiveShadows="true" meshFile="BuildingspCube3.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube1">
+                <position x="-7.62186" y="5.20332" z="18.219"/>
+                <scale x="4.41876" y="8.25851" z="3.2228"/>
+                <rotation qx="-0.00146279" qy="0.980452" qz="-0.00403649" qw="0.19671"/>
+                <entity name="pCube1" castShadows="true" receiveShadows="true" meshFile="BuildingspCube1.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube93">
+                <position x="29.9469" y="0.396617" z="0.788177"/>
+                <scale x="0.793236" y="0.793236" z="1.12301"/>
+                <rotation qx="0" qy="0.576267" qz="0" qw="0.817262"/>
+                <entity name="pCube93" castShadows="true" receiveShadows="true" meshFile="BuildingspCube93.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube92">
+                <position x="30.5313" y="0.239723" z="-0.971113"/>
+                <scale x="0.473477" y="0.473477" z="0.473477"/>
+                <rotation qx="0.00215598" qy="-0.985269" qz="-0.00475818" qw="-0.17093"/>
+                <entity name="pCube92" castShadows="true" receiveShadows="true" meshFile="BuildingspCube92.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube91">
+                <position x="29.1758" y="0.396617" z="11.5979"/>
+                <scale x="0.793236" y="0.793236" z="1.12301"/>
+                <rotation qx="0" qy="0.590425" qz="0" qw="0.807093"/>
+                <entity name="pCube91" castShadows="true" receiveShadows="true" meshFile="BuildingspCube91.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube90">
+                <position x="29.6985" y="0.239721" z="9.81931"/>
+                <scale x="0.473477" y="0.473477" z="0.473477"/>
+                <rotation qx="0.00207271" qy="-0.988099" qz="-0.00479504" qw="-0.15373"/>
+                <entity name="pCube90" castShadows="true" receiveShadows="true" meshFile="BuildingspCube90.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube89">
+                <position x="56.0865" y="0.252634" z="12.3451"/>
+                <scale x="0.473478" y="0.4735" z="4.20347"/>
+                <rotation qx="-0.00654166" qy="-0.22197" qz="-0.00283372" qw="0.975027"/>
+                <entity name="pCube89" castShadows="true" receiveShadows="true" meshFile="BuildingspCube89.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube88">
+                <position x="48.6402" y="0.396617" z="10.8328"/>
+                <scale x="1.0993" y="0.793236" z="1.12301"/>
+                <rotation qx="0" qy="0.999246" qz="0" qw="0.0388226"/>
+                <entity name="pCube88" castShadows="true" receiveShadows="true" meshFile="BuildingspCube88.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube87">
+                <position x="46.0764" y="0.239721" z="10.6738"/>
+                <scale x="0.473478" y="0.4735" z="0.656131"/>
+                <rotation qx="-0.00379223" qy="-0.734507" qz="-0.00603675" qw="0.678564"/>
+                <entity name="pCube87" castShadows="true" receiveShadows="true" meshFile="BuildingspCube87.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube86">
+                <position x="35.8155" y="0.239297" z="11.3778"/>
+                <scale x="0.473477" y="0.473477" z="0.473477"/>
+                <rotation qx="-0.0037928" qy="-0.716909" qz="-0.000364979" qw="0.697157"/>
+                <entity name="pCube86" castShadows="true" receiveShadows="true" meshFile="BuildingspCube86.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube85">
+                <position x="-7.32346" y="0.241285" z="14.1926"/>
+                <scale x="0.473477" y="0.473477" z="0.473477"/>
+                <rotation qx="-0.00535381" qy="0.554661" qz="0.00588113" qw="0.832039"/>
+                <entity name="pCube85" castShadows="true" receiveShadows="true" meshFile="BuildingspCube85.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube59">
+                <position x="12.1606" y="0.241146" z="10.9626"/>
+                <scale x="0.473477" y="0.473477" z="0.473477"/>
+                <rotation qx="-0.00531928" qy="0.594091" qz="0.00588882" qw="0.804359"/>
+                <entity name="pCube59" castShadows="true" receiveShadows="true" meshFile="BuildingspCube59.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube56">
+                <position x="1.03379" y="0.249733" z="20.4088"/>
+                <scale x="1.10603" y="0.404081" z="15.4736"/>
+                <rotation qx="0.00133557" qy="-0.520809" qz="0.00340631" qw="0.853665"/>
+                <entity name="pCube56" castShadows="true" receiveShadows="true" meshFile="BuildingspCube56.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube55">
+                <position x="-3.29957" y="0.195391" z="15.1274"/>
+                <scale x="1.10603" y="0.379377" z="5.93428"/>
+                <rotation qx="-0.000451144" qy="-0.0504943" qz="0.00363086" qw="0.998718"/>
+                <entity name="pCube55" castShadows="true" receiveShadows="true" meshFile="BuildingspCube55.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube84">
+                <position x="-4.60915" y="0.241146" z="10.9626"/>
+                <scale x="0.473477" y="0.473477" z="0.473477"/>
+                <rotation qx="-0.00531928" qy="0.594091" qz="0.00588882" qw="0.804359"/>
+                <entity name="pCube84" castShadows="true" receiveShadows="true" meshFile="BuildingspCube84.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube83">
+                <position x="-14.6807" y="0.239233" z="17.6172"/>
+                <scale x="0.473477" y="0.473477" z="0.473477"/>
+                <rotation qx="0.000196442" qy="0.976173" qz="0.00429172" qw="0.216953"/>
+                <entity name="pCube83" castShadows="true" receiveShadows="true" meshFile="BuildingspCube83.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube48">
+                <position x="18.338" y="0.0708876" z="-20.645"/>
+                <scale x="0.141776" y="0.141776" z="0.141776"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube48" castShadows="true" receiveShadows="true" meshFile="BuildingspCube48.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube45">
+                <position x="-11.4495" y="0.0708868" z="-4.9295"/>
+                <scale x="0.141776" y="0.141776" z="0.141776"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube45" castShadows="true" receiveShadows="true" meshFile="BuildingspCube45.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube44">
+                <position x="11.0571" y="0.0708896" z="12.7598"/>
+                <scale x="0.141776" y="0.141776" z="0.141776"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube44" castShadows="true" receiveShadows="true" meshFile="BuildingspCube44.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube24">
+                <position x="42.9942" y="0.070889" z="-3.27147"/>
+                <scale x="0.141776" y="0.141776" z="0.141776"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pCube24" castShadows="true" receiveShadows="true" meshFile="BuildingspCube24.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube7">
+                <position x="28.0867" y="0.396617" z="3.5054"/>
+                <scale x="0.793236" y="0.793236" z="1.12301"/>
+                <rotation qx="0" qy="0.986799" qz="0" qw="0.161947"/>
+                <entity name="pCube7" castShadows="true" receiveShadows="true" meshFile="BuildingspCube7.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pCube5">
+                <position x="26.3177" y="0.239721" z="2.95127"/>
+                <scale x="0.473477" y="0.473477" z="0.473477"/>
+                <rotation qx="-0.00188192" qy="-0.812585" qz="-0.00487308" qw="0.582819"/>
+                <entity name="pCube5" castShadows="true" receiveShadows="true" meshFile="BuildingspCube5.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="pPlane1">
+                <position x="22.7138" y="0" z="-15.1139"/>
+                <scale x="78.4952" y="78.4952" z="78.4952"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="pPlane1" castShadows="true" receiveShadows="true" meshFile="BuildingspPlane1.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube72">
+                <position x="43.2389" y="3.34555" z="-44.2582"/>
+                <scale x="3.10408" y="6.66484" z="2.15477"/>
+                <rotation qx="0" qy="-0.446215" qz="0" qw="0.894926"/>
+                <entity name="buildings_1:pCube72" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube72.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube71">
+                <position x="48.2782" y="3.34555" z="-36.0546"/>
+                <scale x="3.10408" y="6.66484" z="2.15477"/>
+                <rotation qx="0" qy="-0.446215" qz="0" qw="0.894926"/>
+                <entity name="buildings_1:pCube71" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube71.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube70">
+                <position x="44.4444" y="0.584885" z="-21.1786"/>
+                <scale x="4.82856" y="3.58247" z="2.24754"/>
+                <rotation qx="0" qy="0.878228" qz="0" qw="-0.478243"/>
+                <entity name="buildings_1:pCube70" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube70.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube69">
+                <position x="36.2789" y="1.05773" z="-27.7613"/>
+                <scale x="3.58247" y="3.58247" z="3.58247"/>
+                <rotation qx="0" qy="0.956992" qz="0" qw="0.290114"/>
+                <entity name="buildings_1:pCube69" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube69.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube68">
+                <position x="48.3102" y="3.16619" z="-46.0276"/>
+                <scale x="2.30197" y="6.27961" z="2.30197"/>
+                <rotation qx="0" qy="0.990579" qz="0" qw="-0.136946"/>
+                <entity name="buildings_1:pCube68" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube68.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube67">
+                <position x="54.5138" y="3.11843" z="-34.8274"/>
+                <scale x="2.30197" y="6.27961" z="2.30197"/>
+                <rotation qx="0" qy="0.990579" qz="0" qw="-0.136946"/>
+                <entity name="buildings_1:pCube67" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube67.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube66">
+                <position x="-13.0991" y="1.71886" z="-29.948"/>
+                <scale x="2.97496" y="3.42933" z="2.75092"/>
+                <rotation qx="0" qy="0.941916" qz="0" qw="0.335847"/>
+                <entity name="buildings_1:pCube66" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube66.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube65">
+                <position x="-13.2179" y="1.7378" z="-36.1199"/>
+                <scale x="2.97345" y="3.42933" z="2.75134"/>
+                <rotation qx="0" qy="0.941916" qz="0" qw="0.335847"/>
+                <entity name="buildings_1:pCube65" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube65.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube64">
+                <position x="-2.09276" y="3.1284" z="-49.4356"/>
+                <scale x="2.22481" y="1.62187" z="3.58247"/>
+                <rotation qx="0" qy="0.899462" qz="0" qw="0.436999"/>
+                <entity name="buildings_1:pCube64" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube64.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube62">
+                <position x="-8.564" y="1.5044" z="-22.1559"/>
+                <scale x="3.61895" y="3.58247" z="3.43401"/>
+                <rotation qx="0" qy="-0.5466" qz="0" qw="0.837394"/>
+                <entity name="buildings_1:pCube62" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube62.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube60">
+                <position x="45.525" y="3.33543" z="-40.1189"/>
+                <scale x="3.10408" y="6.66484" z="2.15477"/>
+                <rotation qx="0" qy="-0.446215" qz="0" qw="0.894926"/>
+                <entity name="buildings_1:pCube60" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube60.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube59">
+                <position x="34.9551" y="3.03341" z="-36.6658"/>
+                <scale x="2.22481" y="1.42892" z="4.99802"/>
+                <rotation qx="0" qy="0.929533" qz="0" qw="0.36874"/>
+                <entity name="buildings_1:pCube59" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube59.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube58">
+                <position x="55.5994" y="1.66005" z="-43.5405"/>
+                <scale x="2.68186" y="3.58247" z="3.92523"/>
+                <rotation qx="0" qy="0.179589" qz="0" qw="0.983742"/>
+                <entity name="buildings_1:pCube58" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube58.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube54">
+                <position x="-8.4918" y="1.98989" z="-34.8533"/>
+                <scale x="3.58247" y="3.58247" z="3.58247"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="buildings_1:pCube54" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube54.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube53">
+                <position x="23.2085" y="5.12401" z="-32.08"/>
+                <scale x="3.13465" y="1.87382" z="2.58076"/>
+                <rotation qx="0" qy="0.959254" qz="0" qw="-0.282546"/>
+                <entity name="buildings_1:pCube53" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube53.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube52">
+                <position x="-0.328257" y="5.20054" z="-20.544"/>
+                <scale x="2.22481" y="2.73905" z="3.58247"/>
+                <rotation qx="0" qy="0.334694" qz="0" qw="0.942327"/>
+                <entity name="buildings_1:pCube52" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube52.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube51">
+                <position x="52.3514" y="7.086" z="-13.4683"/>
+                <scale x="3.58247" y="1.95127" z="2.83051"/>
+                <rotation qx="0" qy="0.960053" qz="0" qw="0.279819"/>
+                <entity name="buildings_1:pCube51" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube51.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube50">
+                <position x="13.9215" y="2.06717" z="-34.7534"/>
+                <scale x="3.58247" y="3.58247" z="3.58247"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="buildings_1:pCube50" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube50.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube49">
+                <position x="7.07142" y="2.34278" z="-40.801"/>
+                <scale x="3.58247" y="3.58247" z="3.58247"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="buildings_1:pCube49" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube49.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube48">
+                <position x="3.47886" y="1.95608" z="-35.9141"/>
+                <scale x="2.16412" y="2.91963" z="3.58247"/>
+                <rotation qx="0" qy="0.983489" qz="0" qw="-0.180968"/>
+                <entity name="buildings_1:pCube48" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube48.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube47">
+                <position x="51.6797" y="3.15166" z="-39.7969"/>
+                <scale x="2.30197" y="6.27961" z="2.30197"/>
+                <rotation qx="0" qy="0.990579" qz="0" qw="-0.136946"/>
+                <entity name="buildings_1:pCube47" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube47.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube46">
+                <position x="-13.0529" y="1.69917" z="-41.9505"/>
+                <scale x="2.97345" y="3.42843" z="2.75134"/>
+                <rotation qx="0" qy="0.933226" qz="0" qw="0.35929"/>
+                <entity name="buildings_1:pCube46" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube46.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+            <node name="buildings_1:pCube29">
+                <position x="53.498" y="5.30466" z="-22.518"/>
+                <scale x="3.58247" y="10.0662" z="3.58247"/>
+                <rotation qx="0" qy="1" qz="0" qw="6.12323e-017"/>
+                <entity name="buildings_1:pCube29" castShadows="true" receiveShadows="true" meshFile="Buildingsbuildings_1pCube29.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="lambert1"/>
+                    </subentities>
+                </entity>
+            </node>
+        </node>
+        
+        <node name="main">
+            <position x="0" y="0" z="0"/>
+            <scale x="1" y="1" z="1"/>
+            <rotation qx="0" qy="0" qz="0" qw="1"/>
+            <node name="paperPlane">
+                <position x="0.0380385" y="18.6553" z="4.98928"/>
+                <scale x="3.12412" y="0.133693" z="0.133693"/>
+                <rotation qx="0" qy="0" qz="0" qw="1"/>
+                <entity name="paperPlane" castShadows="true" receiveShadows="true" meshFile="BuildingsPaperPlane.mesh">
+                    <subentities>
+                        <subentity index="0" materialName="WindBlow_3lambert2"/>
+                    </subentities>
+                </entity>
+                <animations>
+                    <animation name="WindBlow" enable="true" loop="true" interpolationMode="linear" rotationInterpolationMode="linear" length="20.7917">
+                        <keyframe time="0">
+                            <translation x="0.0380385" y="18.6553" z="4.98928"/>
+                            <rotation qx="0" qy="0" qz="0" qw="1"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="0.24752">
+                            <translation x="0.0380385" y="18.6553" z="4.98929"/>
+                            <rotation qx="0.00174471" qy="0" qz="0" qw="0.999998"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="0.49504">
+                            <translation x="0.0380385" y="18.6553" z="4.98931"/>
+                            <rotation qx="0.00674857" qy="0" qz="0" qw="0.999977"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="0.742559">
+                            <translation x="0.0380385" y="18.6553" z="4.98935"/>
+                            <rotation qx="0.0146659" qy="0" qz="0" qw="0.999892"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="0.990079">
+                            <translation x="0.0380385" y="18.6553" z="4.98941"/>
+                            <rotation qx="0.02515" qy="0" qz="0" qw="0.999684"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="1.2376">
+                            <translation x="0.0380385" y="18.6553" z="4.98947"/>
+                            <rotation qx="0.0378623" qy="0" qz="0" qw="0.999283"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="1.48512">
+                            <translation x="0.0380385" y="18.6553" z="4.98955"/>
+                            <rotation qx="0.0524358" qy="0" qz="0" qw="0.998624"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="1.73264">
+                            <translation x="0.0380385" y="18.6553" z="4.98963"/>
+                            <rotation qx="0.0685269" qy="0" qz="0" qw="0.997649"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="1.98016">
+                            <translation x="0.0380385" y="18.6553" z="4.98972"/>
+                            <rotation qx="0.0857828" qy="0" qz="0" qw="0.996314"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="2.22768">
+                            <translation x="0.0380385" y="18.6553" z="4.98981"/>
+                            <rotation qx="0.10385" qy="0" qz="0" qw="0.994593"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="2.4752">
+                            <translation x="0.0380385" y="18.6552" z="4.9899"/>
+                            <rotation qx="0.122376" qy="0" qz="0" qw="0.992484"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="2.72272">
+                            <translation x="0.0380385" y="18.6552" z="4.98999"/>
+                            <rotation qx="0.141008" qy="0" qz="0" qw="0.990008"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="2.97024">
+                            <translation x="0.0380385" y="18.6552" z="4.99008"/>
+                            <rotation qx="0.159399" qy="0" qz="0" qw="0.987214"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="3.21776">
+                            <translation x="0.0380385" y="18.6551" z="4.99017"/>
+                            <rotation qx="0.177215" qy="0" qz="0" qw="0.984172"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="3.46528">
+                            <translation x="0.0380385" y="18.6551" z="4.99025"/>
+                            <rotation qx="0.194093" qy="0" qz="0" qw="0.980983"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="3.7128">
+                            <translation x="0.0380385" y="18.6551" z="4.99032"/>
+                            <rotation qx="0.20971" qy="0" qz="0" qw="0.977764"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="3.96032">
+                            <translation x="0.0380385" y="18.6551" z="4.99039"/>
+                            <rotation qx="0.223738" qy="0" qz="0" qw="0.974649"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="4.20784">
+                            <translation x="0.0380385" y="18.655" z="4.99045"/>
+                            <rotation qx="0.235853" qy="0" qz="0" qw="0.971789"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="4.45536">
+                            <translation x="0.0380385" y="18.655" z="4.99049"/>
+                            <rotation qx="0.245736" qy="0" qz="0" qw="0.969337"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="4.70288">
+                            <translation x="0.0380385" y="18.655" z="4.99053"/>
+                            <rotation qx="0.253066" qy="0" qz="0" qw="0.967449"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="4.9504">
+                            <translation x="0.0380385" y="18.655" z="4.99055"/>
+                            <rotation qx="0.257526" qy="0" qz="0" qw="0.966271"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="5.19792">
+                            <translation x="0.0380385" y="18.655" z="4.99055"/>
+                            <rotation qx="0.258801" qy="0" qz="0" qw="0.965931"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="5.44544">
+                            <translation x="0.0380385" y="18.655" z="4.99055"/>
+                            <rotation qx="0.257408" qy="0" qz="0" qw="0.966303"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="5.69296">
+                            <translation x="0.0380385" y="18.655" z="4.99053"/>
+                            <rotation qx="0.253912" qy="0" qz="0" qw="0.967227"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="5.94048">
+                            <translation x="0.0380385" y="18.655" z="4.99051"/>
+                            <rotation qx="0.248469" qy="0" qz="0" qw="0.96864"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="6.188">
+                            <translation x="0.0380385" y="18.655" z="4.99047"/>
+                            <rotation qx="0.241236" qy="0" qz="0" qw="0.970466"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="6.43552">
+                            <translation x="0.0380385" y="18.655" z="4.99043"/>
+                            <rotation qx="0.232366" qy="0" qz="0" qw="0.972628"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="6.68304">
+                            <translation x="0.0380385" y="18.6551" z="4.99038"/>
+                            <rotation qx="0.222014" qy="0" qz="0" qw="0.975043"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="6.93056">
+                            <translation x="0.0380385" y="18.6551" z="4.99033"/>
+                            <rotation qx="0.210335" qy="0" qz="0" qw="0.977629"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="7.17808">
+                            <translation x="0.0380385" y="18.6551" z="4.99027"/>
+                            <rotation qx="0.197485" qy="0" qz="0" qw="0.980306"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="7.4256">
+                            <translation x="0.0380385" y="18.6551" z="4.9902"/>
+                            <rotation qx="0.183613" qy="0" qz="0" qw="0.982999"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="7.67311">
+                            <translation x="0.0380385" y="18.6552" z="4.99013"/>
+                            <rotation qx="0.1689" qy="0" qz="0" qw="0.985633"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="7.92063">
+                            <translation x="0.0380385" y="18.6552" z="4.99005"/>
+                            <rotation qx="0.153499" qy="0" qz="0" qw="0.988149"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="8.16815">
+                            <translation x="0.0380385" y="18.6552" z="4.98997"/>
+                            <rotation qx="0.137576" qy="0" qz="0" qw="0.990491"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="8.41567">
+                            <translation x="0.0380385" y="18.6552" z="4.98989"/>
+                            <rotation qx="0.121299" qy="0" qz="0" qw="0.992616"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="8.66319">
+                            <translation x="0.0380385" y="18.6553" z="4.98981"/>
+                            <rotation qx="0.104839" qy="0" qz="0" qw="0.994489"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="8.91071">
+                            <translation x="0.0380385" y="18.6553" z="4.98973"/>
+                            <rotation qx="0.0883661" qy="0" qz="0" qw="0.996088"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="9.15823">
+                            <translation x="0.0380385" y="18.6553" z="4.98965"/>
+                            <rotation qx="0.0720537" qy="0" qz="0" qw="0.997401"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="9.40575">
+                            <translation x="0.0380385" y="18.6553" z="4.98956"/>
+                            <rotation qx="0.0560644" qy="0" qz="0" qw="0.998427"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="9.65327">
+                            <translation x="0.0380385" y="18.6553" z="4.98949"/>
+                            <rotation qx="0.0405936" qy="0" qz="0" qw="0.999176"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="9.90079">
+                            <translation x="0.0380385" y="18.6553" z="4.98941"/>
+                            <rotation qx="0.0258037" qy="0" qz="0" qw="0.999667"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="10.1483">
+                            <translation x="0.0380385" y="18.6553" z="4.98934"/>
+                            <rotation qx="0.0118675" qy="0" qz="0" qw="0.99993"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="10.3958">
+                            <translation x="0.0380385" y="18.6553" z="4.98927"/>
+                            <rotation qx="-0.00105135" qy="0" qz="0" qw="0.999999"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="10.6434">
+                            <translation x="0.0380385" y="18.6553" z="4.98921"/>
+                            <rotation qx="-0.0141465" qy="0" qz="0" qw="0.9999"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="10.8909">
+                            <translation x="0.0380385" y="18.6553" z="4.98914"/>
+                            <rotation qx="-0.0282385" qy="0" qz="0" qw="0.999601"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="11.1384">
+                            <translation x="0.0380385" y="18.6553" z="4.98906"/>
+                            <rotation qx="-0.0431552" qy="0" qz="0" qw="0.999068"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="11.3859">
+                            <translation x="0.0380385" y="18.6553" z="4.98898"/>
+                            <rotation qx="-0.0587235" qy="0" qz="0" qw="0.998274"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="11.6334">
+                            <translation x="0.0380385" y="18.6553" z="4.9889"/>
+                            <rotation qx="-0.0747812" qy="0" qz="0" qw="0.9972"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="11.881">
+                            <translation x="0.0380385" y="18.6553" z="4.98882"/>
+                            <rotation qx="-0.0911328" qy="0" qz="0" qw="0.995839"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="12.1285">
+                            <translation x="0.0380385" y="18.6552" z="4.98873"/>
+                            <rotation qx="-0.107616" qy="0" qz="0" qw="0.994193"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="12.376">
+                            <translation x="0.0380385" y="18.6552" z="4.98865"/>
+                            <rotation qx="-0.124057" qy="0" qz="0" qw="0.992275"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="12.6235">
+                            <translation x="0.0380385" y="18.6552" z="4.98857"/>
+                            <rotation qx="-0.140286" qy="0" qz="0" qw="0.990111"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="12.871">
+                            <translation x="0.0380385" y="18.6552" z="4.98849"/>
+                            <rotation qx="-0.156133" qy="0" qz="0" qw="0.987736"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="13.1186">
+                            <translation x="0.0380385" y="18.6552" z="4.98842"/>
+                            <rotation qx="-0.17143" qy="0" qz="0" qw="0.985196"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="13.3661">
+                            <translation x="0.0380385" y="18.6551" z="4.98835"/>
+                            <rotation qx="-0.186011" qy="0" qz="0" qw="0.982548"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="13.6136">
+                            <translation x="0.0380385" y="18.6551" z="4.98828"/>
+                            <rotation qx="-0.199723" qy="0" qz="0" qw="0.979852"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="13.8611">
+                            <translation x="0.0380385" y="18.6551" z="4.98822"/>
+                            <rotation qx="-0.212387" qy="0" qz="0" qw="0.977186"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="14.1086">
+                            <translation x="0.0380385" y="18.6551" z="4.98817"/>
+                            <rotation qx="-0.223854" qy="0" qz="0" qw="0.974623"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="14.3562">
+                            <translation x="0.0380385" y="18.655" z="4.98812"/>
+                            <rotation qx="-0.233967" qy="0" qz="0" qw="0.972245"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="14.6037">
+                            <translation x="0.0380385" y="18.655" z="4.98808"/>
+                            <rotation qx="-0.242572" qy="0" qz="0" qw="0.970133"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="14.8512">
+                            <translation x="0.0380385" y="18.655" z="4.98805"/>
+                            <rotation qx="-0.249515" qy="0" qz="0" qw="0.968371"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="15.0987">
+                            <translation x="0.0380385" y="18.655" z="4.98802"/>
+                            <rotation qx="-0.254641" qy="0" qz="0" qw="0.967036"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="15.3462">
+                            <translation x="0.0380385" y="18.655" z="4.98801"/>
+                            <rotation qx="-0.257794" qy="0" qz="0" qw="0.9662"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="15.5938">
+                            <translation x="0.0380385" y="18.655" z="4.98801"/>
+                            <rotation qx="-0.258816" qy="0" qz="0" qw="0.965927"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="15.8413">
+                            <translation x="0.0380385" y="18.655" z="4.98801"/>
+                            <rotation qx="-0.257068" qy="0" qz="0" qw="0.966393"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="16.0888">
+                            <translation x="0.0380385" y="18.655" z="4.98804"/>
+                            <rotation qx="-0.252309" qy="0" qz="0" qw="0.967647"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="16.3363">
+                            <translation x="0.0380385" y="18.655" z="4.98807"/>
+                            <rotation qx="-0.244835" qy="0" qz="0" qw="0.969565"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="16.5838">
+                            <translation x="0.0380385" y="18.655" z="4.98812"/>
+                            <rotation qx="-0.234943" qy="0" qz="0" qw="0.972009"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="16.8313">
+                            <translation x="0.0380385" y="18.6551" z="4.98817"/>
+                            <rotation qx="-0.222925" qy="0" qz="0" qw="0.974836"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="17.0789">
+                            <translation x="0.0380385" y="18.6551" z="4.98824"/>
+                            <rotation qx="-0.209078" qy="0" qz="0" qw="0.977899"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="17.3264">
+                            <translation x="0.0380385" y="18.6551" z="4.98831"/>
+                            <rotation qx="-0.193702" qy="0" qz="0" qw="0.98106"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="17.5739">
+                            <translation x="0.0380385" y="18.6551" z="4.98839"/>
+                            <rotation qx="-0.177099" qy="0" qz="0" qw="0.984193"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="17.8214">
+                            <translation x="0.0380385" y="18.6552" z="4.98848"/>
+                            <rotation qx="-0.159567" qy="0" qz="0" qw="0.987187"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="18.0689">
+                            <translation x="0.0380385" y="18.6552" z="4.98857"/>
+                            <rotation qx="-0.141442" qy="0" qz="0" qw="0.989946"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="18.3165">
+                            <translation x="0.0380385" y="18.6552" z="4.98866"/>
+                            <rotation qx="-0.123033" qy="0" qz="0" qw="0.992403"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="18.564">
+                            <translation x="0.0380385" y="18.6553" z="4.98875"/>
+                            <rotation qx="-0.10466" qy="0" qz="0" qw="0.994508"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="18.8115">
+                            <translation x="0.0380385" y="18.6553" z="4.98884"/>
+                            <rotation qx="-0.0866486" qy="0" qz="0" qw="0.996239"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="19.059">
+                            <translation x="0.0380385" y="18.6553" z="4.98893"/>
+                            <rotation qx="-0.0693256" qy="0" qz="0" qw="0.997594"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="19.3065">
+                            <translation x="0.0380385" y="18.6553" z="4.98901"/>
+                            <rotation qx="-0.0530175" qy="0" qz="0" qw="0.998594"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="19.5541">
+                            <translation x="0.0380385" y="18.6553" z="4.98909"/>
+                            <rotation qx="-0.0380512" qy="0" qz="0" qw="0.999276"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="19.8016">
+                            <translation x="0.0380385" y="18.6553" z="4.98915"/>
+                            <rotation qx="-0.0247442" qy="0" qz="0" qw="0.999694"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="20.0491">
+                            <translation x="0.0380385" y="18.6553" z="4.98921"/>
+                            <rotation qx="-0.0139508" qy="0" qz="0" qw="0.999903"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="20.2966">
+                            <translation x="0.0380385" y="18.6553" z="4.98925"/>
+                            <rotation qx="-0.00621437" qy="0" qz="0" qw="0.999981"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="20.5441">
+                            <translation x="0.0380385" y="18.6553" z="4.98927"/>
+                            <rotation qx="-0.00155708" qy="0" qz="0" qw="0.999999"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                        <keyframe time="20.7917">
+                            <translation x="0.0380385" y="18.6553" z="4.98928"/>
+                            <rotation qx="0" qy="0" qz="0" qw="1"/>
+                            <scale x="3.12412" y="0.133693" z="0.133693"/>
+                        </keyframe>
+                    </animation>
+                </animations>
+            </node>
+        </node>
+    </nodes>
+</scene>

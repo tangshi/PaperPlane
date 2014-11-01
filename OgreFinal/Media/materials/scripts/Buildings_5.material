@@ -1,0 +1,125 @@
+material lambert1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.829053 0.829053 0.829053 1
+			diffuse 0.827955 0.944121 0.957259 1
+		}
+
+	}
+
+}
+
+material lambertRed
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 0 0 0.5
+			diffuse 1 0 0 0.5
+		}
+
+	}
+
+}
+
+material lambertGreen
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 1 0 0.5
+			diffuse 0 1 0 0.5
+		}
+
+	}
+
+}
+
+material lambertBlue
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 1 0.5
+			diffuse 0 0 1 0.5
+		}
+
+	}
+
+}
+
+material lambertRedAndGreen
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 0 1
+			diffuse 1 1 0 1
+		}
+
+	}
+
+}
+
+material lambertRedAndBlue
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 0 1 1
+			diffuse 1 0 1 1
+		}
+
+	}
+
+}
+
+material lambertGreenAndBlue
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 1 1 1
+			diffuse 0 1 1 1
+		}
+
+	}
+
+}
+
+material lambertWhite
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+		}
+
+	}
+
+}
+
+
+material WindBlow_3lambert2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.2 0.2 0.2 1
+		}
+
+	}
+}
